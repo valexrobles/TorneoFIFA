@@ -5814,19 +5814,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\caliv\\.nuget\\packages\\": {}
+    "C:\\Users\\diana\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\caliv\\OneDrive\\Escritorio\\VersionesMinTic\\Cycle3\\5_10_TorneoFutbol\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Persistencia\\TorneoDeFutbol.App.Persistencia.csproj",
+      "projectUniqueName": "C:\\Programación\\retos\\TorneoFIFA\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Persistencia\\TorneoDeFutbol.App.Persistencia.csproj",
       "projectName": "TorneoDeFutbol.App.Persistencia",
-      "projectPath": "C:\\Users\\caliv\\OneDrive\\Escritorio\\VersionesMinTic\\Cycle3\\5_10_TorneoFutbol\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Persistencia\\TorneoDeFutbol.App.Persistencia.csproj",
-      "packagesPath": "C:\\Users\\caliv\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\caliv\\OneDrive\\Escritorio\\VersionesMinTic\\Cycle3\\5_10_TorneoFutbol\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Persistencia\\obj\\",
+      "projectPath": "C:\\Programación\\retos\\TorneoFIFA\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Persistencia\\TorneoDeFutbol.App.Persistencia.csproj",
+      "packagesPath": "C:\\Users\\diana\\.nuget\\packages\\",
+      "outputPath": "C:\\Programación\\retos\\TorneoFIFA\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Persistencia\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\caliv\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\diana\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -5838,8 +5838,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\caliv\\OneDrive\\Escritorio\\VersionesMinTic\\Cycle3\\5_10_TorneoFutbol\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Dominio\\TorneoDeFutbol.App.Dominio.csproj": {
-              "projectPath": "C:\\Users\\caliv\\OneDrive\\Escritorio\\VersionesMinTic\\Cycle3\\5_10_TorneoFutbol\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Dominio\\TorneoDeFutbol.App.Dominio.csproj"
+            "C:\\Programación\\retos\\TorneoFIFA\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Dominio\\TorneoDeFutbol.App.Dominio.csproj": {
+              "projectPath": "C:\\Programación\\retos\\TorneoFIFA\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Dominio\\TorneoDeFutbol.App.Dominio.csproj"
             }
           }
         }

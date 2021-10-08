@@ -22,7 +22,7 @@ namespace TorneoDeFutbol.App.Persistencia
          }
 
 
-         public void DeleteArbitro(int idArbitro)
+        public void DeleteArbitro(int idArbitro)
         {
             var arbitroEncontrado = _appContext.Arbitros.Find(idArbitro);
             if (arbitroEncontrado == null)
@@ -32,7 +32,7 @@ namespace TorneoDeFutbol.App.Persistencia
          }
 
 
-         public Arbitro GetArbitro(int idArbitro)
+        public Arbitro GetArbitro(int idArbitro)
         {
             return _appContext.Arbitros.Find(idArbitro);
         }
@@ -51,6 +51,32 @@ namespace TorneoDeFutbol.App.Persistencia
                 return colegioEncontrado;
             }
             return null;
+        }
+
+        //Método Actualizar arbitro
+        Arbitro IRepositorioArbitro.UpdateArbitro(Arbitro arbitro)
+        {
+            var arbitroEncontrado = _appContext.Arbitros.Find(arbitro.idParticipante);
+            
+            if (arbitroEncontrado != null)
+            {
+
+                arbitroEncontrado.nombre = arbitro.nombre;
+                arbitroEncontrado.apellido = arbitro.apellido;
+                arbitroEncontrado.numTelefono = arbitro.numTelefono;
+                arbitroEncontrado.direccion = arbitro.direccion;
+                arbitroEncontrado.ciudad = arbitro.ciudad;
+                arbitroEncontrado.fechaNacimiento = arbitro.fechaNacimiento;
+                arbitroEncontrado.genero = arbitro.genero;
+                arbitroEncontrado.idParticipante = arbitro.idParticipante;
+                arbitroEncontrado.numDocumento = arbitro.numDocumento;
+                arbitroEncontrado.arbitroFIFA = arbitro.arbitroFIFA;
+                arbitroEncontrado.fechaAfiliacionFIFA = arbitro.fechaAfiliacionFIFA;
+                arbitroEncontrado.colegio = arbitro.colegio;
+
+                 _appContext.SaveChanges();
+            }
+            return arbitroEncontrado;
         }
         
 

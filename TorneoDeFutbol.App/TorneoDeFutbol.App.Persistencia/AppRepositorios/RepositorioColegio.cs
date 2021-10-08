@@ -37,7 +37,17 @@ namespace TorneoDeFutbol.App.Persistencia
             return _appContext.Colegios.Find(Id_Colegio);
         }
         
-        
+        Colegio IRepositorioColegio.UpdateColegio(Colegio colegio)
+        {
+            var colegioEncontrado = _appContext.Colegios.Find(colegio.idColegio);
+            
+            if (colegioEncontrado != null)
+            {
+                colegioEncontrado.nombre = colegio.nombre;
+                 _appContext.SaveChanges();
+            }
+            return colegioEncontrado;
+        }
         
 
     }

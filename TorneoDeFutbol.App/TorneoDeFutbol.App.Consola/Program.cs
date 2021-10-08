@@ -11,6 +11,7 @@ namespace TorneoDeFutbol.App.Consola
         private static IRepositorioEquipo _repoEquipo = new RepositorioEquipo();
         private static IRepositorioDirector _repoDirector = new RepositorioDirector();
         private static IRepositorioColegio _repoColegio = new RepositorioColegio(); 
+        private static IRepositorioArbitro _repoArbitro = new RepositorioArbitro();
         
         static void Main(string[] args)
         {
@@ -21,16 +22,16 @@ namespace TorneoDeFutbol.App.Consola
             //AddParticipante();
             //AddJugador();
             //AddEquipo();
-            //AddDirectorTecnico();
+            AddDirectorTecnico();
             //AddArbitro();
-            AddColegio();
+            //AddColegio();
             
             //DeleteParticipante();
             //DeleteJugador();
             //DeleteDirectorTecnico();
 
             //AsignarJugador();
-            //AsignarColegioArbitro();
+            AsignarColegio();
             //mostrarGenero();
             }
 
@@ -39,11 +40,11 @@ namespace TorneoDeFutbol.App.Consola
             {
             var Participante = new Participante
             {
-                numeroDocumento="10303675272",
+                numDocumento="10303675272",
                 nombre = "MontGomery",
                 apellido = "Burns",
                 direccion = "Avenida Siempre Viva",
-                numeroTelefono = "01800-98765",
+                numTelefono = "01800-98765",
                 ciudad = "Springfield",
                 genero = Genero.BiGenero
                 
@@ -57,11 +58,11 @@ namespace TorneoDeFutbol.App.Consola
                 var Jugador = new Jugador
                 {
                     
-                    numeroDocumento="1061717456",
+                    numDocumento="1061717456",
                     nombre = "James",
                     apellido = "Garcia",
                     direccion = "Envigado",
-                    numeroTelefono = "+57 455688797",
+                    numTelefono = "+57 455688797",
                     ciudad = "La Guajira",
                     genero = (Genero)Enum.Parse(typeof(Genero), "Intersexual"),
                     numCamiseta = 10,
@@ -139,26 +140,25 @@ namespace TorneoDeFutbol.App.Consola
 
             var director = new Director_Tecnico
             {
-                /*numeroDocumento="500400300-2",
+                numDocumento="500400300-2",
                 nombre = "Louis",
                 apellido = "Van Gaal",
                 direccion = "Amsterdam",
-                numeroTelefono = "009-0180050400",
+                numTelefono = "009-0180050400",
                 ciudad = "Holanda",
-                aniosExperiencia = "Bastantes",
-                genero = Genero.Transexual,
-                fechaNacimiento = Convert.ToDateTime("09/08/1951"),
-                equiposDirigidos = eqDirigidos*/
+                aniosExperiencia = "Entre 20 y 25",
+                genero = Genero.Otro,
+                fechaNacimiento = Convert.ToDateTime("09/08/1951")
 
-                numeroDocumento="10403020",
+                /*numDocumento="10403020",
                 nombre = "Marcelo",
                 apellido = "Gallardo",
                 direccion = "Buenos Aires",
-                numeroTelefono = "009-0180050400",
+                numTelefono = "009-0180050400",
                 ciudad = "Argentina",
                 aniosExperiencia = "Pocos",
                 genero = Genero.Transexual,
-                fechaNacimiento = Convert.ToDateTime("18/01/1976")
+                fechaNacimiento = Convert.ToDateTime("18/01/1976")*/
                 
             };
              _repoDirector.AddDirectorTecnico(director);
@@ -183,18 +183,27 @@ namespace TorneoDeFutbol.App.Consola
             //Añadir ARBITRO
             private static void AddArbitro()
             {
-            var Arbitro = new Arbitro
+            var arbitro = new Arbitro
             {
-                numeroDocumento="10303675272",
-                nombre = "",
-                apellido = "Burns",
-                direccion = "Avenida Siempre Viva",
-                numeroTelefono = "01800-98765",
-                ciudad = "Springfield",
-                genero = Genero.BiGenero
+                numDocumento="10303675272",
+                nombre = "Oscar Julian",
+                apellido = "Ruiz",
+                direccion = "Bicentenario",
+                numTelefono = "343536363698765",
+                ciudad = "Manizales",
+                genero = Genero.PanSexual,
+                arbitroFIFA = true,
+                fechaNacimiento = Convert.ToDateTime("24/01/1953"),
+                fechaAfiliacionFIFA = Convert.ToDateTime("18/12/1994")
                 
             };
-             _repoParticipante.AddArbitro(Participante);
+             _repoArbitro.AddArbitro(arbitro);
+            }
+
+            //Asignar COLEGIOS
+            public static void AsignarColegio()
+            {
+                _repoArbitro.AsignarColegio(4, 1);
             }
 
 

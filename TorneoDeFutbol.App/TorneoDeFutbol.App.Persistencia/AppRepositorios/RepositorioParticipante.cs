@@ -50,13 +50,13 @@ namespace TorneoDeFutbol.App.Persistencia
 
                 participanteEncontrado.nombre = participante.nombre;
                 participanteEncontrado.apellido = participante.apellido;
-                participanteEncontrado.numeroTelefono = participante.numeroTelefono;
+                participanteEncontrado.numTelefono = participante.numTelefono;
                 participanteEncontrado.direccion = participante.direccion;
                 participanteEncontrado.ciudad = participante.ciudad;
                 participanteEncontrado.fechaNacimiento = participante.fechaNacimiento;
                 participanteEncontrado.genero = participante.genero;
                 participanteEncontrado.idParticipante = participante.idParticipante;
-                participanteEncontrado.numeroDocumento = participante.numeroDocumento;
+                participanteEncontrado.numDocumento = participante.numDocumento;
                  _appContext.SaveChanges();
             }
             return participanteEncontrado;

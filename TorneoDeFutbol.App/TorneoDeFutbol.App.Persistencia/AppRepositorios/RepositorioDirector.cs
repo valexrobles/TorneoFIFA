@@ -32,13 +32,13 @@ namespace TorneoDeFutbol.App.Persistencia
             {
                 directorEncontrado.nombre = director.nombre;
                 directorEncontrado.apellido = director.apellido;
-                directorEncontrado.numeroTelefono = director.numeroTelefono;
+                directorEncontrado.numTelefono = director.numTelefono;
                 directorEncontrado.direccion = director.direccion;
                 directorEncontrado.ciudad = director.ciudad;
                 directorEncontrado.fechaNacimiento = director.fechaNacimiento;
                 directorEncontrado.genero = director.genero;
                 directorEncontrado.idParticipante = director.idParticipante;
-                directorEncontrado.numeroDocumento = director.numeroDocumento;
+                directorEncontrado.numDocumento = director.numDocumento;
                 directorEncontrado.aniosExperiencia = director.aniosExperiencia;
                  _appContext.SaveChanges();
             }

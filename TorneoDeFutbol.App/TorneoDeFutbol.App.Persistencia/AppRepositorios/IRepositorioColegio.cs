@@ -10,5 +10,6 @@ namespace TorneoDeFutbol.App.Persistencia
         IEnumerable<Colegio> GetAllColegios();
         void DeleteColegio(int Id_Colegio);
         Colegio GetColegio(int Id_Colegio);
+        Colegio UpdateColegio(Colegio colegio);
     }
 }

@@ -26,7 +26,7 @@ namespace TorneoDeFutbol.App.Persistencia
         } 
 
         //Método Actualizar Jugador
-         Jugador IRepositorioJugador.UpdateJugador(Jugador jugador)
+        Jugador IRepositorioJugador.UpdateJugador(Jugador jugador)
         {
             var jugadorEncontrado = _appContext.Jugadores.Find(jugador.idParticipante);
             
@@ -35,13 +35,13 @@ namespace TorneoDeFutbol.App.Persistencia
 
                 jugadorEncontrado.nombre = jugador.nombre;
                 jugadorEncontrado.apellido = jugador.apellido;
-                jugadorEncontrado.numeroTelefono = jugador.numeroTelefono;
+                jugadorEncontrado.numTelefono = jugador.numTelefono;
                 jugadorEncontrado.direccion = jugador.direccion;
                 jugadorEncontrado.ciudad = jugador.ciudad;
                 jugadorEncontrado.fechaNacimiento = jugador.fechaNacimiento;
                 jugadorEncontrado.genero = jugador.genero;
                 jugadorEncontrado.idParticipante = jugador.idParticipante;
-                jugadorEncontrado.numeroDocumento = jugador.numeroDocumento;
+                jugadorEncontrado.numDocumento = jugador.numDocumento;
                 jugadorEncontrado.numCamiseta = jugador.numCamiseta;
                 jugadorEncontrado.posicion = jugador.posicion;
                  _appContext.SaveChanges();

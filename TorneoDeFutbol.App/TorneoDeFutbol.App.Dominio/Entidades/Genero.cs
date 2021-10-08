@@ -1,0 +1,1 @@
+public enum Genero {Masculino, Femenino, BiGenero ,NoBinario , Intersexual, Pansexual, Transexual, Otro}

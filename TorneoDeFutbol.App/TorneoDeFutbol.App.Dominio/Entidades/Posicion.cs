@@ -1,0 +1,1 @@
+public enum Posicion {Arquero, DefensaLateral, DefensaCentral, DefensaLibero, MedioPivote,  MedioCentro, MedioInterior, MediaPunta, SegundaPunta, VolanteLateral, DelanteroExtremo, SegundoPunta, DelanteroCentro, FalsoExtremo}

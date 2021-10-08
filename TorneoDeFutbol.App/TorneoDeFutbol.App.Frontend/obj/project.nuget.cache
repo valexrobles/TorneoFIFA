@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FC2Rc+9B4b1BkbceCT8EQqgluNHhAdIfyk8kQjABBDH/UI2KDFVjbWxkLuG7NrI7j7vfbjYY2GAIU7s+/42T9Q==",
+  "dgSpecHash": "qPdx9xaC9YQSdoAHVDy2qUVAJdJ5aUK0cJynqzfIfAEt2bhRFvKkTZEdDkuR/+NyA294XsD8uix7U4pevCPc5Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\caliv\\OneDrive\\Escritorio\\5_10_TorneoFutbol\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Frontend\\TorneoDeFutbol.App.Frontend.csproj",
+  "projectFilePath": "C:\\Users\\caliv\\OneDrive\\Escritorio\\VersionesMinTic\\Cycle3\\5_10_TorneoFutbol\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Frontend\\TorneoDeFutbol.App.Frontend.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\caliv\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\caliv\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",

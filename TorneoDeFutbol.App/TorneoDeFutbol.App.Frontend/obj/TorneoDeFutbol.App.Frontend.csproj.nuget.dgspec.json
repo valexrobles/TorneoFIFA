@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\caliv\\OneDrive\\Escritorio\\5_10_TorneoFutbol\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Frontend\\TorneoDeFutbol.App.Frontend.csproj": {}
+    "C:\\Users\\caliv\\OneDrive\\Escritorio\\VersionesMinTic\\Cycle3\\5_10_TorneoFutbol\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Frontend\\TorneoDeFutbol.App.Frontend.csproj": {}
   },
   "projects": {
-    "C:\\Users\\caliv\\OneDrive\\Escritorio\\5_10_TorneoFutbol\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Dominio\\TorneoDeFutbol.App.Dominio.csproj": {
+    "C:\\Users\\caliv\\OneDrive\\Escritorio\\VersionesMinTic\\Cycle3\\5_10_TorneoFutbol\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Dominio\\TorneoDeFutbol.App.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\caliv\\OneDrive\\Escritorio\\5_10_TorneoFutbol\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Dominio\\TorneoDeFutbol.App.Dominio.csproj",
+        "projectUniqueName": "C:\\Users\\caliv\\OneDrive\\Escritorio\\VersionesMinTic\\Cycle3\\5_10_TorneoFutbol\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Dominio\\TorneoDeFutbol.App.Dominio.csproj",
         "projectName": "TorneoDeFutbol.App.Dominio",
-        "projectPath": "C:\\Users\\caliv\\OneDrive\\Escritorio\\5_10_TorneoFutbol\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Dominio\\TorneoDeFutbol.App.Dominio.csproj",
+        "projectPath": "C:\\Users\\caliv\\OneDrive\\Escritorio\\VersionesMinTic\\Cycle3\\5_10_TorneoFutbol\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Dominio\\TorneoDeFutbol.App.Dominio.csproj",
         "packagesPath": "C:\\Users\\caliv\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\caliv\\OneDrive\\Escritorio\\5_10_TorneoFutbol\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Dominio\\obj\\",
+        "outputPath": "C:\\Users\\caliv\\OneDrive\\Escritorio\\VersionesMinTic\\Cycle3\\5_10_TorneoFutbol\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\caliv\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -56,14 +56,14 @@
         }
       }
     },
-    "C:\\Users\\caliv\\OneDrive\\Escritorio\\5_10_TorneoFutbol\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Frontend\\TorneoDeFutbol.App.Frontend.csproj": {
+    "C:\\Users\\caliv\\OneDrive\\Escritorio\\VersionesMinTic\\Cycle3\\5_10_TorneoFutbol\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Frontend\\TorneoDeFutbol.App.Frontend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\caliv\\OneDrive\\Escritorio\\5_10_TorneoFutbol\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Frontend\\TorneoDeFutbol.App.Frontend.csproj",
+        "projectUniqueName": "C:\\Users\\caliv\\OneDrive\\Escritorio\\VersionesMinTic\\Cycle3\\5_10_TorneoFutbol\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Frontend\\TorneoDeFutbol.App.Frontend.csproj",
         "projectName": "TorneoDeFutbol.App.Frontend",
-        "projectPath": "C:\\Users\\caliv\\OneDrive\\Escritorio\\5_10_TorneoFutbol\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Frontend\\TorneoDeFutbol.App.Frontend.csproj",
+        "projectPath": "C:\\Users\\caliv\\OneDrive\\Escritorio\\VersionesMinTic\\Cycle3\\5_10_TorneoFutbol\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Frontend\\TorneoDeFutbol.App.Frontend.csproj",
         "packagesPath": "C:\\Users\\caliv\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\caliv\\OneDrive\\Escritorio\\5_10_TorneoFutbol\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Frontend\\obj\\",
+        "outputPath": "C:\\Users\\caliv\\OneDrive\\Escritorio\\VersionesMinTic\\Cycle3\\5_10_TorneoFutbol\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Frontend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\caliv\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -78,11 +78,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\caliv\\OneDrive\\Escritorio\\5_10_TorneoFutbol\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Dominio\\TorneoDeFutbol.App.Dominio.csproj": {
-                "projectPath": "C:\\Users\\caliv\\OneDrive\\Escritorio\\5_10_TorneoFutbol\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Dominio\\TorneoDeFutbol.App.Dominio.csproj"
+              "C:\\Users\\caliv\\OneDrive\\Escritorio\\VersionesMinTic\\Cycle3\\5_10_TorneoFutbol\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Dominio\\TorneoDeFutbol.App.Dominio.csproj": {
+                "projectPath": "C:\\Users\\caliv\\OneDrive\\Escritorio\\VersionesMinTic\\Cycle3\\5_10_TorneoFutbol\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Dominio\\TorneoDeFutbol.App.Dominio.csproj"
               },
-              "C:\\Users\\caliv\\OneDrive\\Escritorio\\5_10_TorneoFutbol\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Persistencia\\TorneoDeFutbol.App.Persistencia.csproj": {
-                "projectPath": "C:\\Users\\caliv\\OneDrive\\Escritorio\\5_10_TorneoFutbol\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Persistencia\\TorneoDeFutbol.App.Persistencia.csproj"
+              "C:\\Users\\caliv\\OneDrive\\Escritorio\\VersionesMinTic\\Cycle3\\5_10_TorneoFutbol\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Persistencia\\TorneoDeFutbol.App.Persistencia.csproj": {
+                "projectPath": "C:\\Users\\caliv\\OneDrive\\Escritorio\\VersionesMinTic\\Cycle3\\5_10_TorneoFutbol\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Persistencia\\TorneoDeFutbol.App.Persistencia.csproj"
               }
             }
           }
@@ -118,14 +118,14 @@
         }
       }
     },
-    "C:\\Users\\caliv\\OneDrive\\Escritorio\\5_10_TorneoFutbol\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Persistencia\\TorneoDeFutbol.App.Persistencia.csproj": {
+    "C:\\Users\\caliv\\OneDrive\\Escritorio\\VersionesMinTic\\Cycle3\\5_10_TorneoFutbol\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Persistencia\\TorneoDeFutbol.App.Persistencia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\caliv\\OneDrive\\Escritorio\\5_10_TorneoFutbol\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Persistencia\\TorneoDeFutbol.App.Persistencia.csproj",
+        "projectUniqueName": "C:\\Users\\caliv\\OneDrive\\Escritorio\\VersionesMinTic\\Cycle3\\5_10_TorneoFutbol\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Persistencia\\TorneoDeFutbol.App.Persistencia.csproj",
         "projectName": "TorneoDeFutbol.App.Persistencia",
-        "projectPath": "C:\\Users\\caliv\\OneDrive\\Escritorio\\5_10_TorneoFutbol\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Persistencia\\TorneoDeFutbol.App.Persistencia.csproj",
+        "projectPath": "C:\\Users\\caliv\\OneDrive\\Escritorio\\VersionesMinTic\\Cycle3\\5_10_TorneoFutbol\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Persistencia\\TorneoDeFutbol.App.Persistencia.csproj",
         "packagesPath": "C:\\Users\\caliv\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\caliv\\OneDrive\\Escritorio\\5_10_TorneoFutbol\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Persistencia\\obj\\",
+        "outputPath": "C:\\Users\\caliv\\OneDrive\\Escritorio\\VersionesMinTic\\Cycle3\\5_10_TorneoFutbol\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Persistencia\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\caliv\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -140,8 +140,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\caliv\\OneDrive\\Escritorio\\5_10_TorneoFutbol\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Dominio\\TorneoDeFutbol.App.Dominio.csproj": {
-                "projectPath": "C:\\Users\\caliv\\OneDrive\\Escritorio\\5_10_TorneoFutbol\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Dominio\\TorneoDeFutbol.App.Dominio.csproj"
+              "C:\\Users\\caliv\\OneDrive\\Escritorio\\VersionesMinTic\\Cycle3\\5_10_TorneoFutbol\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Dominio\\TorneoDeFutbol.App.Dominio.csproj": {
+                "projectPath": "C:\\Users\\caliv\\OneDrive\\Escritorio\\VersionesMinTic\\Cycle3\\5_10_TorneoFutbol\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Dominio\\TorneoDeFutbol.App.Dominio.csproj"
               }
             }
           }

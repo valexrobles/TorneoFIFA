@@ -36,7 +36,8 @@ namespace TorneoDeFutbol.App.Persistencia
         {
             return _appContext.Arbitros.Find(idArbitro);
         }
-       
+
+       //Método ASIGNAR COLEGIO
         Colegio IRepositorioArbitro.AsignarColegio(int idArbitro, int idColegio)
         {
             var arbitroEncontrado = _appContext.Arbitros.Find(idArbitro);

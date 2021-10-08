@@ -20,9 +20,9 @@ namespace TorneoDeFutbol.App.Consola
             //IndexParticipantes();
             
             //AddParticipante();
-            //AddJugador();
+            AddJugador();
             //AddEquipo();
-            AddDirectorTecnico();
+            //AddDirectorTecnico();
             //AddArbitro();
             //AddColegio();
             
@@ -31,7 +31,7 @@ namespace TorneoDeFutbol.App.Consola
             //DeleteDirectorTecnico();
 
             //AsignarJugador();
-            AsignarColegio();
+            //AsignarColegio();
             //mostrarGenero();
             }
 
@@ -40,7 +40,7 @@ namespace TorneoDeFutbol.App.Consola
             {
             var Participante = new Participante
             {
-                numDocumento="10303675272",
+                numDocumento="3435646748",
                 nombre = "MontGomery",
                 apellido = "Burns",
                 direccion = "Avenida Siempre Viva",
@@ -59,15 +59,15 @@ namespace TorneoDeFutbol.App.Consola
                 {
                     
                     numDocumento="1061717456",
-                    nombre = "James",
-                    apellido = "Garcia",
-                    direccion = "Envigado",
-                    numTelefono = "+57 455688797",
-                    ciudad = "La Guajira",
-                    genero = (Genero)Enum.Parse(typeof(Genero), "Intersexual"),
-                    numCamiseta = 10,
-                    fechaNacimiento = Convert.ToDateTime("07/04/1999"),
-                    posicion = Posicion.MedioCentro
+                    nombre = "Diego",
+                    apellido = "Maradona",
+                    direccion = "La plata 123",
+                    numTelefono = "54263637",
+                    ciudad = "Avellaneda",
+                    genero = (Genero)Enum.Parse(typeof(Genero), "PanSexual"),
+                    numCamiseta = 1010,
+                    fechaNacimiento = Convert.ToDateTime("11/04/1940"),
+                    posicion = Posicion.DelanteroExtremo
                 };
                 _repoJugador.AddJugador(Jugador);
             }

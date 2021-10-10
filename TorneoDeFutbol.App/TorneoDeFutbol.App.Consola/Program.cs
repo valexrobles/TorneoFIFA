@@ -19,9 +19,9 @@ namespace TorneoDeFutbol.App.Consola
             //BuscarParticipante();
             //IndexParticipantes();
             
-            //AddParticipante();
-            AddJugador();
-            //AddEquipo();
+           //AddParticipante();
+            //AddJugador();
+            AddEquipo();
             //AddDirectorTecnico();
             //AddArbitro();
             //AddColegio();
@@ -81,7 +81,7 @@ namespace TorneoDeFutbol.App.Consola
             //Método ELIMINAR Jugador***************************************************************
             private static void DeleteJugador()
             {
-                _repoJugador.DeleteJugador(7);
+                _repoJugador.DeleteJugador(3);
             }
 
 

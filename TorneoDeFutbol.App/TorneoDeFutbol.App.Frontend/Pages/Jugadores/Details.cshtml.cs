@@ -20,9 +20,9 @@ namespace TorneoDeFutbol.App.Frontend.pages.Jugadores
             _repoJugador = repoJugador;
         }
 
-        public IActionResult OnGet(int id)
+        public IActionResult OnGet(int idParticipante)
         {
-            jugador = _repoJugador.GetJugador(id);
+            jugador = _repoJugador.GetJugador(idParticipante);
             if(jugador == null)
             {
                 return NotFound();

@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 namespace TorneoDeFutbol.App.Dominio
 
 {
-    public class Colegios
+    public class Colegio
     {
         [Key]
         public int idColegio { get;set; }

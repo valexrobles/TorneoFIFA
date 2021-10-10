@@ -23,5 +23,18 @@ namespace TorneoDeFutbol.App.Frontend.pages.Jugadores
         {
             jugador = new Jugador();
         }
+
+         public IActionResult OnPost(Jugador jugador)
+        {
+            if (ModelState.IsValid)
+            {
+                _repoJugador.AddJugador(jugador);
+                return RedirectToPage("Index");
+            }
+            else
+            {
+                return Page();
+            }
+        }
     }
 }

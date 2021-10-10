@@ -9,6 +9,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using TorneoDeFutbol.App.Persistencia;
+using TorneoDeFutbol.App.Dominio;
 
 namespace TorneoDeFutbol.App.Frontend
 {
@@ -26,6 +27,7 @@ namespace TorneoDeFutbol.App.Frontend
         {
             services.AddRazorPages();
             services.AddSingleton<IRepositorioJugador, RepositorioJugador>();
+            services.AddSingleton<IRepositorioEquipo, RepositorioEquipo>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

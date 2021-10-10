@@ -12,8 +12,8 @@
         <tr>
             <th scope="col">Nombres</th>
             <th scope="col">Apellidos</th>
-            <th scope="col">Teléfono</th>
-            <th scope="col">Dirección</th>
+            <th scope="col">Direccion</th>
+            <th scope="col">Numero Telefono</th>
             <th scope="col">Acciones</th>
         </tr>
     </thead>
@@ -27,7 +27,8 @@
                 <td>@jugador.numTelefono</td>
                 <td>@jugador.direccion</td>
                 <td>
-                    <a class="btn btn-secondary" asp-page="./Details" asp-route-id="@jugador.idParticipante">Detalle</a>
+                    <a class="btn btn-primary" asp-page="./Details" asp-route-idParticipante="@jugador.idParticipante">Detalle</a>
+                    <a class="btn btn-secondary" asp-page="./Edit" asp-route-idParticipante="@jugador.idParticipante">Editar</a>
                 </td>
             </tr>
         }

@@ -9,6 +9,7 @@
     <div class = "form-group">
         <label asp-for = "jugador.numDocumento"></label>
         <input asp-for = "jugador.numDocumento" class = "form-control">
+        <span class="text-danger" asp-validation-for="jugador.numDocumento"></span>
     </div>
     <div class = "form-group">
         <label asp-for = "jugador.fechaNacimiento"></label>
@@ -17,10 +18,12 @@
     <div class = "form-group">
         <label asp-for = "jugador.nombre"></label>
         <input asp-for = "jugador.nombre" class = "form-control">
+        <span class="text-danger" asp-validation-for="jugador.nombre"></span>
     </div>
     <div class = "form-group">
         <label asp-for = "jugador.apellido"></label>
         <input asp-for = "jugador.apellido" class = "form-control">
+        <span class="text-danger" asp-validation-for="jugador.apellido"></span>
     </div>
     <div class = "form-group">
         <label asp-for = "jugador.numTelefono"></label>
@@ -44,7 +47,6 @@
         <input asp-for = "jugador.posicion" class = "form-control">
     </div>
     
-    <div class="float-right">
-        <a href="#" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Crear Jugador</a>
-    </div>
+   <button type="submit" class="btn btn-primary btn-block">Crear Jugador</button>
 </form>
+<a class="btn btn-secondary" asp-page="./Index">Volver</a>

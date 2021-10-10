@@ -7,12 +7,12 @@ namespace TorneoDeFutbol.App.Persistencia
     
     {
         Equipo AddEquipo (Equipo equipo);
-         IEnumerable<Equipo> GetAllEquipos();
-        void DeleteEquipo(int Id_Equipo);
-        Equipo GetEquipo(int Id_Equipo);
-        Jugador AsignarJugador (int Id_Equipo, int Id_Participante);
-        Director_Tecnico AsignarDirectorTecnico (int Id_Equipo, int Id_DirectorTecnico);
-        Municipio AsignarMunicipio (int Id_Equipo, int Id_Municipio);
+        IEnumerable<Equipo> GetAllEquipos();
+        void DeleteEquipo(int idEquipo);
+        Equipo GetEquipo(int idEquipo);
+        Jugador AsignarJugador (int idEquipo, int idParticipante);
+        Director_Tecnico AsignarDirectorTecnico (int idEquipo, int idDirectorTecnico);
+        Municipio AsignarMunicipio (int idEquipo, int idMunicipio);
         
        
 

@@ -2,3 +2,36 @@
 @model TorneoDeFutbol.App.Frontend.pages.Equipos.DetailsModel
 @{
 }
+<h1>Detalle del Equipo</h1>
+
+<table class="table table-striped">
+ 
+        <tr>
+            <th scope="col">Nombre</th>
+            <td>@Model.equipo.nombre</td>
+        </tr>
+        <tr>
+            <th scope="col">Municipio</th> 
+            <td>@Model.equipo.municipio</td>   
+        </tr>
+        <tr>
+             <th scope="col">Estadio</th>
+             <td>@Model.equipo.estadio</td>   
+        </tr>
+        <tr>
+            <th scope="col">Jugador</th>
+            <td>@Model.equipo.jugador</td>
+        </tr>
+          <tr>
+            <th scope="col">Registro</th>
+            <td>@Model.equipo.registro</td>
+        </tr>
+          <tr>
+            <th scope="col">Director Tecnico</th>
+            <td>@Model.equipo.directorTecnico</td>
+        </tr>
+       
+    </table>
+            
+    <a class="btn btn-secondary" asp-page="./Index">Volver</a>
+

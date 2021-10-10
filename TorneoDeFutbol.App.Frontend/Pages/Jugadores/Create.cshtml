@@ -1,0 +1,49 @@
+﻿@page
+@using TorneoDeFutbol.App.Dominio;
+@model TorneoDeFutbol.App.Frontend.pages.Jugadores.CreateModel
+@{
+}
+<h1>Nuevo Jugador</h1>
+<form method = "post">
+    
+    <div class = "form-group">
+        <label asp-for = "jugador.numDocumento"></label>
+        <input asp-for = "jugador.numDocumento" class = "form-control">
+    </div>
+    <div class = "form-group">
+        <label asp-for = "jugador.fechaNacimiento"></label>
+        <input asp-for = "jugador.fechaNacimiento" class = "form-control">
+    </div>
+    <div class = "form-group">
+        <label asp-for = "jugador.nombre"></label>
+        <input asp-for = "jugador.nombre" class = "form-control">
+    </div>
+    <div class = "form-group">
+        <label asp-for = "jugador.apellido"></label>
+        <input asp-for = "jugador.apellido" class = "form-control">
+    </div>
+    <div class = "form-group">
+        <label asp-for = "jugador.numTelefono"></label>
+        <input asp-for = "jugador.numTelefono" class = "form-control">
+    </div>
+    <div class = "form-group">
+        <label asp-for = "jugador.genero"></label>
+        <select asp-for = "jugador.genero" asp-items = "Html.GetEnumSelectList<Genero>()" class = "form-control"></select>
+    </div>
+    <div class = "form-group">
+        <label asp-for = "jugador.direccion"></label>
+        <input asp-for = "jugador.direccion" class = "form-control">
+    </div>
+    <div class = "form-group">
+        <label asp-for = "jugador.numCamiseta"></label>
+        <input asp-for = "jugador.numCamiseta" class = "form-control">
+    </div>
+    
+    <div class = "form-group">
+        <label asp-for = "jugador.posicion"></label>
+        <input asp-for = "jugador.posicion" class = "form-control">
+    </div>
+    
+   <button type="submit" class="btn btn-primary btn-block">Crear Jugador</button>
+</form>
+<a class="btn btn-secondary" asp-page="./Index">Volver</a>

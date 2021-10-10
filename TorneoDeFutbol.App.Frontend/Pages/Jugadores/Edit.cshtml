@@ -1,0 +1,37 @@
+﻿@page
+@using TorneoDeFutbol.App.Dominio
+@model TorneoDeFutbol.App.Frontend.Pages.Jugadores.EditModel
+@{
+}
+<h1>Nuevo Jugador</h1>
+<form method="post">
+    <div class="form-group">
+        <label asp-for="jugador.idParticipante"></label>
+        <input asp-for="jugador.idParticipante" class="form-control" readonly>
+    </div>
+    <div class="form-group">
+        <label asp-for="jugador.numDocumento"></label>
+        <input asp-for="jugador.numDocumento" class="form-control">
+    </div>
+    <div class="form-group">
+        <label asp-for="jugador.nombre"></label>
+        <input asp-for="jugador.nombre" class="form-control" placeholder="Pepito perez">
+        <span class="text-danger" asp-validation-for="jugador.nombre"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="jugador.apellido"></label>
+        <input asp-for="jugador.apellido" class="form-control">
+    </div>
+    <div class="form-group">
+        <label asp-for="jugador.numTelefono"></label>
+        <input asp-for="jugador.numTelefono" class="form-control">
+    </div>
+    
+    <div class="form-group">
+        <label asp-for="jugador.direccion"></label>
+        <input asp-for="jugador.direccion" class="form-control">
+    </div>
+   
+    <button type="submit" class="btn btn-primary btn-block">Actualizar jugador</button>
+</form>
+<a class="btn btn-secondary" asp-page="./Index">Volver</a>

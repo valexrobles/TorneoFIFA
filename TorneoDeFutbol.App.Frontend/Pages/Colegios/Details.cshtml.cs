@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace TorneoDeFutbol.App.Frontend.pages.Colegios
+namespace TorneoDeFutbol.App.Frontend.Pages.Colegios
 {
     public class DetailsModel : PageModel
     {

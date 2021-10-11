@@ -21,9 +21,9 @@ namespace TorneoDeFutbol.App.Consola
             
            //AddParticipante();
             //AddJugador();
-            //AddEquipo();
+            AddEquipo();
             //AddDirectorTecnico();
-            AddArbitro();
+            //AddArbitro();
             //AddColegio();
             
             //DeleteParticipante();

@@ -21,9 +21,9 @@ namespace TorneoDeFutbol.App.Persistencia
         }
 
 
-        public void DeleteEquipo(int Id_Equipo)
+        public void DeleteEquipo(int idEquipo)
         {
-            var equipoEncontrado = _appContext.Equipos.Find(Id_Equipo);
+            var equipoEncontrado = _appContext.Equipos.Find(idEquipo);
             if (equipoEncontrado == null)
                 {return;}
             else
@@ -33,17 +33,17 @@ namespace TorneoDeFutbol.App.Persistencia
                 }
         }
 
-        public Equipo GetEquipo(int Id_Equipo)
+        public Equipo GetEquipo(int idEquipo)
         {
-            return _appContext.Equipos.Find(Id_Equipo);
+            return _appContext.Equipos.Find(idEquipo);
         }
         
-        Jugador IRepositorioEquipo.AsignarJugador(int Id_Participante, int Id_Equipo)
+        Jugador IRepositorioEquipo.AsignarJugador(int idParticipante, int idEquipo)
         {
-            var equipoEncontrado = _appContext.Equipos.Find(Id_Equipo);
+            var equipoEncontrado = _appContext.Equipos.Find(idEquipo);
             if (equipoEncontrado != null)
             {
-                var jugadorEncontrado = _appContext.Jugadores.Find(Id_Participante);
+                var jugadorEncontrado = _appContext.Jugadores.Find(idParticipante);
                 if (jugadorEncontrado != null)
                 {
                     equipoEncontrado.jugador = jugadorEncontrado;

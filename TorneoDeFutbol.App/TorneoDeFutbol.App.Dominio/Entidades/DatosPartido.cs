@@ -15,8 +15,6 @@ namespace TorneoDeFutbol.App.Dominio
      public  Equipo equipo { get;set; }
      public  Arbitro arbitro { get;set;}
      public  Estadio estadio { get;set;}
-     public  bool equipoLocal {get;set; }
-     public  bool equipoVisitante {get;set; }
      
           
      

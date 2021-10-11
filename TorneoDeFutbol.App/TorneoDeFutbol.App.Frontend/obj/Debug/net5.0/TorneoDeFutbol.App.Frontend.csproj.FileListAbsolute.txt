@@ -159,8 +159,6 @@ C:\Users\caliv\OneDrive\Escritorio\VersionesMinTic\Cycle3\5_10_TorneoFutbol\Torn
 C:\Users\caliv\OneDrive\Escritorio\VersionesMinTic\Cycle3\5_10_TorneoFutbol\TorneoDeFutbol.App\TorneoDeFutbol.App.Frontend\obj\Debug\net5.0\Razor\Pages\Estadios\Details.cshtml.g.cs
 C:\Users\caliv\OneDrive\Escritorio\VersionesMinTic\Cycle3\5_10_TorneoFutbol\TorneoDeFutbol.App\TorneoDeFutbol.App.Frontend\obj\Debug\net5.0\Razor\Pages\Estadios\Index.cshtml.g.cs
 C:\Users\caliv\OneDrive\Escritorio\VersionesMinTic\Cycle3\5_10_TorneoFutbol\TorneoDeFutbol.App\TorneoDeFutbol.App.Frontend\obj\Debug\net5.0\Razor\Pages\Index.cshtml.g.cs
-C:\Users\caliv\OneDrive\Escritorio\VersionesMinTic\Cycle3\5_10_TorneoFutbol\TorneoDeFutbol.App\TorneoDeFutbol.App.Frontend\obj\Debug\net5.0\Razor\Pages\Jugadores\Create.cshtml.g.cs
-C:\Users\caliv\OneDrive\Escritorio\VersionesMinTic\Cycle3\5_10_TorneoFutbol\TorneoDeFutbol.App\TorneoDeFutbol.App.Frontend\obj\Debug\net5.0\Razor\Pages\Jugadores\Details.cshtml.g.cs
 C:\Users\caliv\OneDrive\Escritorio\VersionesMinTic\Cycle3\5_10_TorneoFutbol\TorneoDeFutbol.App\TorneoDeFutbol.App.Frontend\obj\Debug\net5.0\Razor\Pages\Jugadores\Index.cshtml.g.cs
 C:\Users\caliv\OneDrive\Escritorio\VersionesMinTic\Cycle3\5_10_TorneoFutbol\TorneoDeFutbol.App\TorneoDeFutbol.App.Frontend\obj\Debug\net5.0\Razor\Pages\Municipios\Details.cshtml.g.cs
 C:\Users\caliv\OneDrive\Escritorio\VersionesMinTic\Cycle3\5_10_TorneoFutbol\TorneoDeFutbol.App\TorneoDeFutbol.App.Frontend\obj\Debug\net5.0\Razor\Pages\Municipios\Index.cshtml.g.cs
@@ -222,3 +220,5 @@ C:\Users\caliv\OneDrive\Escritorio\VersionesMinTic\Cycle3\5_10_TorneoFutbol\Torn
 C:\Users\caliv\OneDrive\Escritorio\VersionesMinTic\Cycle3\5_10_TorneoFutbol\TorneoDeFutbol.App\TorneoDeFutbol.App.Frontend\obj\Debug\net5.0\TorneoDeFutbol.App.Frontend.Views.pdb
 C:\Users\caliv\OneDrive\Escritorio\VersionesMinTic\Cycle3\5_10_TorneoFutbol\TorneoDeFutbol.App\TorneoDeFutbol.App.Frontend\obj\Debug\net5.0\TorneoDeFutbol.App.Frontend.csproj.CopyComplete
 C:\Users\caliv\OneDrive\Escritorio\VersionesMinTic\Cycle3\5_10_TorneoFutbol\TorneoDeFutbol.App\TorneoDeFutbol.App.Frontend\obj\Debug\net5.0\TorneoDeFutbol.App.Frontend.genruntimeconfig.cache
+C:\Users\caliv\OneDrive\Escritorio\VersionesMinTic\Cycle3\5_10_TorneoFutbol\TorneoDeFutbol.App\TorneoDeFutbol.App.Frontend\obj\Debug\net5.0\Razor\Pages\Jugadores\Details.cshtml.g.cs
+C:\Users\caliv\OneDrive\Escritorio\VersionesMinTic\Cycle3\5_10_TorneoFutbol\TorneoDeFutbol.App\TorneoDeFutbol.App.Frontend\obj\Debug\net5.0\Razor\Pages\Jugadores\Create.cshtml.g.cs

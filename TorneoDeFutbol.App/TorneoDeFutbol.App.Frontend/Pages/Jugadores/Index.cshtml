@@ -12,8 +12,9 @@
         <tr>
             <th scope="col">Nombres</th>
             <th scope="col">Apellidos</th>
+            <th scope="col">Posición</th>
             <th scope="col">Teléfono</th>
-            <th scope="col">Dirección</th>
+            <th scope = "col">Número Documento</th>
             <th scope="col">Acciones</th>
         </tr>
     </thead>
@@ -24,10 +25,12 @@
             <tr>
                 <td>@jugador.nombre</td>
                 <td>@jugador.apellido</td>
+                <td>@jugador.posicion</td>
                 <td>@jugador.numTelefono</td>
-                <td>@jugador.direccion</td>
+                <td>@jugador.numDocumento</td>
+              
                 <td>
-                    <a class="btn btn-secondary" asp-page="./Details" asp-route-id="@jugador.idParticipante">Detalle</a>
+                    <a class="btn btn-secondary" asp-page="./Details" asp-route-id="@jugador.numCamiseta">Detalle</a>
                 </td>
             </tr>
         }

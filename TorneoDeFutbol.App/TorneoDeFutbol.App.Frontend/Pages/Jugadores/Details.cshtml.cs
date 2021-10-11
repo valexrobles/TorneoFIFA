@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using TorneoDeFutbol.App.Dominio;
 using TorneoDeFutbol.App.Persistencia;
 
-namespace TorneoDeFutbol.App.Frontend.pages.Jugadores
+namespace TorneoDeFutbol.App.Frontend.Pages.Jugadores
 {
     public class DetailsModel : PageModel
     {

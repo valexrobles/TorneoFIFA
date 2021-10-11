@@ -1,9 +1,8 @@
 ﻿@page
-@model TorneoDeFutbol.App.Frontend.pages.Jugadores.DetailsModel
+@model TorneoDeFutbol.App.Frontend.Pages.Jugadores.DetailsModel
 @{
 }
 <h1>Detalle del Jugador</h1>
-
 <table class="table table-striped">
  
         <tr>
@@ -15,18 +14,31 @@
             <td>@Model.jugador.apellido</td>   
         </tr>
         <tr>
-             <th scope="col">Teléfono</th>
-             <td>@Model.jugador.numTelefono</td>   
+            <th scope="col">Número Camiseta</th> 
+            <td>@Model.jugador.numCamiseta</td>
         </tr>
         <tr>
-            <th scope="col">Dirección</th>
-            <td>@Model.jugador.direccion</td>
-        </tr>
+            <th scope = "col">Posición</th>
+            <td>@Model.jugador.posicion</td>
+        </tr> 
         <tr>
             <th scope="col">Fecha de Nacimiento</th>
             <td>@Model.jugador.fechaNacimiento</td>
         </tr>
+        <tr>
+            <th scope = "col">Género</th>
+            <td>@Model.jugador.genero</td>
+        </tr>
+        <tr>
+            <th scope = "col">Dirección</th>
+            <td>@Model.jugador.direccion</td>
+        </tr> 
+        <tr>
+             <th scope="col">Teléfono</th>
+             <td>@Model.jugador.numTelefono</td>   
+        </tr>
+        
     </table>
+
             
     <a class="btn btn-secondary" asp-page="./Index">Volver</a>
-

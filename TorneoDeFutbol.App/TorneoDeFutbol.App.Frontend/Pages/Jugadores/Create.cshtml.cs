@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using TorneoDeFutbol.App.Dominio;
 using TorneoDeFutbol.App.Persistencia;
 
-namespace TorneoDeFutbol.App.Frontend.pages.Jugadores
+namespace TorneoDeFutbol.App.Frontend.Pages.Jugadores
 {
     public class CreateModel : PageModel
     {
@@ -22,6 +22,12 @@ namespace TorneoDeFutbol.App.Frontend.pages.Jugadores
         public void OnGet()
         {
             jugador = new Jugador();
+        }
+
+        public IActionResult OnPost(Jugador jugador)
+        {
+            _repoJugador.AddJugador(jugador);
+            return RedirectToPage("Index");
         }
     }
 }

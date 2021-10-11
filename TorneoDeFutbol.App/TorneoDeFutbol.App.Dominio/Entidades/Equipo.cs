@@ -14,5 +14,5 @@ namespace TorneoDeFutbol.App.Dominio
         public Director_Tecnico directorTecnico { get;set; }
         public bool local { get;set; }
         public bool visitante { get;set; }     
-         }
+        }
 }

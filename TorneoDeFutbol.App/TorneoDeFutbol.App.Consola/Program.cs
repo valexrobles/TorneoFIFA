@@ -20,7 +20,7 @@ namespace TorneoDeFutbol.App.Consola
             //IndexParticipantes();
             
             //AddParticipante();
-            AddJugador();
+            //AddJugador();
             //AddEquipo();
             //AddDirectorTecnico();
             //AddArbitro();
@@ -200,10 +200,10 @@ namespace TorneoDeFutbol.App.Consola
              _repoArbitro.AddArbitro(arbitro);
             }
 
-            //Asignar COLEGIOS
+            //Asignar COLEGIO
             public static void AsignarColegio()
             {
-                _repoArbitro.AsignarColegio(4, 1);
+                _repoArbitro.AsignarColegio(2, 1);
             }
 
 

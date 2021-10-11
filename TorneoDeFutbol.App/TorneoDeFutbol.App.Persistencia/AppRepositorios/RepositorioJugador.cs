@@ -48,7 +48,7 @@ namespace TorneoDeFutbol.App.Persistencia
             }
             return jugadorEncontrado;
         }
-
+        
         //Método para Eliminar Jugador
         void IRepositorioJugador.DeleteJugador(int idJugador)
         {

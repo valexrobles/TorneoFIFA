@@ -12,13 +12,13 @@ namespace TorneoDeFutbol.App.Frontend.Pages.Jugadores
     public class IndexModel : PageModel
     {
         private readonly IRepositorioJugador _repoJugador;
+
+        public IEnumerable<Jugador> jugadores {get; set;}
         
         public IndexModel(IRepositorioJugador repoJugador)
         {
             _repoJugador = repoJugador;
         }
-
-        public IEnumerable<Jugador> jugadores {get; set;}
 
         public void OnGet()
         {
@@ -26,3 +26,4 @@ namespace TorneoDeFutbol.App.Frontend.Pages.Jugadores
         }
     }
 }
+

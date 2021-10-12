@@ -53,6 +53,19 @@ namespace TorneoDeFutbol.App.Persistencia
             }
             return null;
         }
+         Equipo IRepositorioEquipo.UpdateEquipo(Equipo equipo)
+        {
+            var equipoEncontrado = _appContext.Equipos.Find(equipo.idEquipo);
+            
+            if (equipoEncontrado != null)
+            {
+
+                equipoEncontrado.nombre = equipo.nombre;
+                
+                 _appContext.SaveChanges();
+            }
+            return equipoEncontrado;
+        }
         Director_Tecnico IRepositorioEquipo.AsignarDirectorTecnico(int idDirectorTecnico, int idEquipo)
         {
             var directorTecnicoEncontrado = _appContext.DirectoresTecnicos.Find(idDirectorTecnico);

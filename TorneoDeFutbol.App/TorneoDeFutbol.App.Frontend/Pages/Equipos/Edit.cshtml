@@ -1,4 +1,15 @@
 ﻿@page
+@using TorneoDeFutbol.App.Dominio
 @model TorneoDeFutbol.App.Frontend.Pages.Equipos.EditModel
 @{
 }
+<h1>Nuevo Equipo</h1>
+<form method="post">
+    <div class="form-group">
+        <label asp-for="equipo.nombre"></label>
+        <input asp-for="equipo.nombre" class="form-control" readonly>
+    </div>
+      
+    <button type="submit" class="btn btn-primary btn-block">Actualizar Equipo</button>
+</form>
+<a class="btn btn-secondary" asp-page="./Index">Volver</a>

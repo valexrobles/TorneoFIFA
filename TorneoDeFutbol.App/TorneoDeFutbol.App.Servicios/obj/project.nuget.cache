@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "I2qgE4kjyphIVZ9Oaebz7w1Jn/gVUe2/pj+xE8Hb6e3XYWTjlLI9WxFaZ01aqtEioiTA5sxjpDQrQ2ZLrqylDQ==",
+  "dgSpecHash": "8nfkz8PLjMHwe5yBvx6kF3dBhdBaAM035BSiUyg1nO43pfv1TKp6nAEAjitjXQ/9fqxReX9jsW5stpmhlZUqmA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\caliv\\OneDrive\\Escritorio\\5_10_TorneoFutbol\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Servicios\\TorneoDeFutbol.App.Servicios.csproj",
+  "projectFilePath": "C:\\MisionTic2022-Ciclo3\\TorneoFutbolDepartamental\\TorneoFIFA\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Servicios\\TorneoDeFutbol.App.Servicios.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\caliv\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
-    "C:\\Users\\caliv\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
-    "C:\\Users\\caliv\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
-    "C:\\Users\\caliv\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
-    "C:\\Users\\caliv\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
-    "C:\\Users\\caliv\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+    "C:\\Users\\SHIRLEY\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\SHIRLEY\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\SHIRLEY\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "C:\\Users\\SHIRLEY\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "C:\\Users\\SHIRLEY\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "C:\\Users\\SHIRLEY\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
   ],
   "logs": []
 }

@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Linq;
 using TorneoDeFutbol.App.Dominio;
 
 namespace TorneoDeFutbol.App.Persistencia
@@ -39,5 +40,16 @@ namespace TorneoDeFutbol.App.Persistencia
             return _appContext.Municipios.Find(idMunicipio);
         }
 
+        Municipio IRepositorioMunicipio.UpdateMunicipio(Municipio municipio)
+        {
+            var municipioEncontrado=_appContext.Municipios.Find(municipio.Id);
+            if (municipioEncontrado!=null)
+            {
+                municipioEncontrado.Nombre=municipio.Nombre;
+
+                _appContext.SaveChanges();
+            }
+            return municipioEncontrado;
+        }
     }
 }

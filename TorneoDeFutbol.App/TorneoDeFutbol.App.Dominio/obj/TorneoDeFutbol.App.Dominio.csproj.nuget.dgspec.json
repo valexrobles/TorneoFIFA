@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\caliv\\OneDrive\\Escritorio\\VersionesMinTic\\Cycle3\\5_10_TorneoFutbol\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Dominio\\TorneoDeFutbol.App.Dominio.csproj": {}
+    "C:\\MisionTic2022-Ciclo3\\TorneoFutbolDepartamental\\TorneoFIFA\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Dominio\\TorneoDeFutbol.App.Dominio.csproj": {}
   },
   "projects": {
-    "C:\\Users\\caliv\\OneDrive\\Escritorio\\VersionesMinTic\\Cycle3\\5_10_TorneoFutbol\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Dominio\\TorneoDeFutbol.App.Dominio.csproj": {
+    "C:\\MisionTic2022-Ciclo3\\TorneoFutbolDepartamental\\TorneoFIFA\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Dominio\\TorneoDeFutbol.App.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\caliv\\OneDrive\\Escritorio\\VersionesMinTic\\Cycle3\\5_10_TorneoFutbol\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Dominio\\TorneoDeFutbol.App.Dominio.csproj",
+        "projectUniqueName": "C:\\MisionTic2022-Ciclo3\\TorneoFutbolDepartamental\\TorneoFIFA\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Dominio\\TorneoDeFutbol.App.Dominio.csproj",
         "projectName": "TorneoDeFutbol.App.Dominio",
-        "projectPath": "C:\\Users\\caliv\\OneDrive\\Escritorio\\VersionesMinTic\\Cycle3\\5_10_TorneoFutbol\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Dominio\\TorneoDeFutbol.App.Dominio.csproj",
-        "packagesPath": "C:\\Users\\caliv\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\caliv\\OneDrive\\Escritorio\\VersionesMinTic\\Cycle3\\5_10_TorneoFutbol\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Dominio\\obj\\",
+        "projectPath": "C:\\MisionTic2022-Ciclo3\\TorneoFutbolDepartamental\\TorneoFIFA\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Dominio\\TorneoDeFutbol.App.Dominio.csproj",
+        "packagesPath": "C:\\Users\\SHIRLEY\\.nuget\\packages\\",
+        "outputPath": "C:\\MisionTic2022-Ciclo3\\TorneoFutbolDepartamental\\TorneoFIFA\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\caliv\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\SHIRLEY\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"

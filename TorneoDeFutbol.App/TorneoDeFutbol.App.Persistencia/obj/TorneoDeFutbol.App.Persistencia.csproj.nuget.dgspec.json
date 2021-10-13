@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\caliv\\OneDrive\\Escritorio\\VersionesMinTic\\Cycle3\\5_10_TorneoFutbol\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Persistencia\\TorneoDeFutbol.App.Persistencia.csproj": {}
+    "C:\\MisionTic2022-Ciclo3\\TorneoFutbolDepartamental\\TorneoFIFA\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Persistencia\\TorneoDeFutbol.App.Persistencia.csproj": {}
   },
   "projects": {
-    "C:\\Users\\caliv\\OneDrive\\Escritorio\\VersionesMinTic\\Cycle3\\5_10_TorneoFutbol\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Dominio\\TorneoDeFutbol.App.Dominio.csproj": {
+    "C:\\MisionTic2022-Ciclo3\\TorneoFutbolDepartamental\\TorneoFIFA\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Dominio\\TorneoDeFutbol.App.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\caliv\\OneDrive\\Escritorio\\VersionesMinTic\\Cycle3\\5_10_TorneoFutbol\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Dominio\\TorneoDeFutbol.App.Dominio.csproj",
+        "projectUniqueName": "C:\\MisionTic2022-Ciclo3\\TorneoFutbolDepartamental\\TorneoFIFA\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Dominio\\TorneoDeFutbol.App.Dominio.csproj",
         "projectName": "TorneoDeFutbol.App.Dominio",
-        "projectPath": "C:\\Users\\caliv\\OneDrive\\Escritorio\\VersionesMinTic\\Cycle3\\5_10_TorneoFutbol\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Dominio\\TorneoDeFutbol.App.Dominio.csproj",
-        "packagesPath": "C:\\Users\\caliv\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\caliv\\OneDrive\\Escritorio\\VersionesMinTic\\Cycle3\\5_10_TorneoFutbol\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Dominio\\obj\\",
+        "projectPath": "C:\\MisionTic2022-Ciclo3\\TorneoFutbolDepartamental\\TorneoFIFA\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Dominio\\TorneoDeFutbol.App.Dominio.csproj",
+        "packagesPath": "C:\\Users\\SHIRLEY\\.nuget\\packages\\",
+        "outputPath": "C:\\MisionTic2022-Ciclo3\\TorneoFutbolDepartamental\\TorneoFIFA\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\caliv\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\SHIRLEY\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -56,17 +56,17 @@
         }
       }
     },
-    "C:\\Users\\caliv\\OneDrive\\Escritorio\\VersionesMinTic\\Cycle3\\5_10_TorneoFutbol\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Persistencia\\TorneoDeFutbol.App.Persistencia.csproj": {
+    "C:\\MisionTic2022-Ciclo3\\TorneoFutbolDepartamental\\TorneoFIFA\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Persistencia\\TorneoDeFutbol.App.Persistencia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\caliv\\OneDrive\\Escritorio\\VersionesMinTic\\Cycle3\\5_10_TorneoFutbol\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Persistencia\\TorneoDeFutbol.App.Persistencia.csproj",
+        "projectUniqueName": "C:\\MisionTic2022-Ciclo3\\TorneoFutbolDepartamental\\TorneoFIFA\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Persistencia\\TorneoDeFutbol.App.Persistencia.csproj",
         "projectName": "TorneoDeFutbol.App.Persistencia",
-        "projectPath": "C:\\Users\\caliv\\OneDrive\\Escritorio\\VersionesMinTic\\Cycle3\\5_10_TorneoFutbol\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Persistencia\\TorneoDeFutbol.App.Persistencia.csproj",
-        "packagesPath": "C:\\Users\\caliv\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\caliv\\OneDrive\\Escritorio\\VersionesMinTic\\Cycle3\\5_10_TorneoFutbol\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Persistencia\\obj\\",
+        "projectPath": "C:\\MisionTic2022-Ciclo3\\TorneoFutbolDepartamental\\TorneoFIFA\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Persistencia\\TorneoDeFutbol.App.Persistencia.csproj",
+        "packagesPath": "C:\\Users\\SHIRLEY\\.nuget\\packages\\",
+        "outputPath": "C:\\MisionTic2022-Ciclo3\\TorneoFutbolDepartamental\\TorneoFIFA\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Persistencia\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\caliv\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\SHIRLEY\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -78,8 +78,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\caliv\\OneDrive\\Escritorio\\VersionesMinTic\\Cycle3\\5_10_TorneoFutbol\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Dominio\\TorneoDeFutbol.App.Dominio.csproj": {
-                "projectPath": "C:\\Users\\caliv\\OneDrive\\Escritorio\\VersionesMinTic\\Cycle3\\5_10_TorneoFutbol\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Dominio\\TorneoDeFutbol.App.Dominio.csproj"
+              "C:\\MisionTic2022-Ciclo3\\TorneoFutbolDepartamental\\TorneoFIFA\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Dominio\\TorneoDeFutbol.App.Dominio.csproj": {
+                "projectPath": "C:\\MisionTic2022-Ciclo3\\TorneoFutbolDepartamental\\TorneoFIFA\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Dominio\\TorneoDeFutbol.App.Dominio.csproj"
               }
             }
           }

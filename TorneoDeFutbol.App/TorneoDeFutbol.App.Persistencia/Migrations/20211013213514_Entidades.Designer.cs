@@ -10,8 +10,8 @@ using TorneoDeFutbol.App.Persistencia;
 namespace TorneoDeFutbol.App.Persistencia.Migrations
 {
     [DbContext(typeof(AppContext))]
-    [Migration("20211009071943_Inicial")]
-    partial class Inicial
+    [Migration("20211013213514_Entidades")]
+    partial class Entidades
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -45,12 +45,6 @@ namespace TorneoDeFutbol.App.Persistencia.Migrations
 
                     b.Property<int?>("arbitroidParticipante")
                         .HasColumnType("int");
-
-                    b.Property<bool>("equipoLocal")
-                        .HasColumnType("bit");
-
-                    b.Property<bool>("equipoVisitante")
-                        .HasColumnType("bit");
 
                     b.Property<int?>("equipoidEquipo")
                         .HasColumnType("int");
@@ -106,7 +100,7 @@ namespace TorneoDeFutbol.App.Persistencia.Migrations
                     b.Property<bool>("local")
                         .HasColumnType("bit");
 
-                    b.Property<int?>("municipioidMunicipio")
+                    b.Property<int?>("municipioId")
                         .HasColumnType("int");
 
                     b.Property<string>("nombre")
@@ -126,7 +120,7 @@ namespace TorneoDeFutbol.App.Persistencia.Migrations
 
                     b.HasIndex("jugadoridParticipante");
 
-                    b.HasIndex("municipioidMunicipio");
+                    b.HasIndex("municipioId");
 
                     b.HasIndex("registroidRegistro");
 
@@ -146,7 +140,7 @@ namespace TorneoDeFutbol.App.Persistencia.Migrations
                     b.Property<string>("direccion")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int?>("municipioidMunicipio")
+                    b.Property<int?>("municipioId")
                         .HasColumnType("int");
 
                     b.Property<string>("nombre")
@@ -154,22 +148,22 @@ namespace TorneoDeFutbol.App.Persistencia.Migrations
 
                     b.HasKey("idEstadio");
 
-                    b.HasIndex("municipioidMunicipio");
+                    b.HasIndex("municipioId");
 
                     b.ToTable("Estadios");
                 });
 
             modelBuilder.Entity("TorneoDeFutbol.App.Dominio.Municipio", b =>
                 {
-                    b.Property<int>("idMunicipio")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .UseIdentityColumn();
 
-                    b.Property<string>("nombre")
+                    b.Property<string>("Nombre")
                         .HasColumnType("nvarchar(max)");
 
-                    b.HasKey("idMunicipio");
+                    b.HasKey("Id");
 
                     b.ToTable("Municipios");
                 });
@@ -377,7 +371,7 @@ namespace TorneoDeFutbol.App.Persistencia.Migrations
 
                     b.HasOne("TorneoDeFutbol.App.Dominio.Municipio", "municipio")
                         .WithMany()
-                        .HasForeignKey("municipioidMunicipio");
+                        .HasForeignKey("municipioId");
 
                     b.HasOne("TorneoDeFutbol.App.Dominio.Registro", "registro")
                         .WithMany()
@@ -398,7 +392,7 @@ namespace TorneoDeFutbol.App.Persistencia.Migrations
                 {
                     b.HasOne("TorneoDeFutbol.App.Dominio.Municipio", "municipio")
                         .WithMany()
-                        .HasForeignKey("municipioidMunicipio");
+                        .HasForeignKey("municipioId");
 
                     b.Navigation("municipio");
                 });

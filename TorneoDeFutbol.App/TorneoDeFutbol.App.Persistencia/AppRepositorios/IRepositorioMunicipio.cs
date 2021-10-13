@@ -7,10 +7,10 @@ namespace TorneoDeFutbol.App.Persistencia
     
     {
         Municipio AddMunicipio (Municipio municipio);
-         IEnumerable<Municipio> GetAllMunicipios();
+        IEnumerable<Municipio> GetAllMunicipios();
         void DeleteMunicipio(int idMunicipio);
         Municipio GetMunicipio(int idMunicipio);
-        
+        Municipio UpdateMunicipio(Municipio municipio);
         
        
 

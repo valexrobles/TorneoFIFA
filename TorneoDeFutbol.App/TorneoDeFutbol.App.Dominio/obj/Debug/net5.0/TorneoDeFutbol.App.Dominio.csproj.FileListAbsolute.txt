@@ -58,3 +58,15 @@ C:\Users\caliv\OneDrive\Escritorio\VersionesMinTic\Cycle3\5_10_TorneoFutbol\Torn
 C:\Users\caliv\OneDrive\Escritorio\VersionesMinTic\Cycle3\5_10_TorneoFutbol\TorneoDeFutbol.App\TorneoDeFutbol.App.Dominio\obj\Debug\net5.0\TorneoDeFutbol.App.Dominio.dll
 C:\Users\caliv\OneDrive\Escritorio\VersionesMinTic\Cycle3\5_10_TorneoFutbol\TorneoDeFutbol.App\TorneoDeFutbol.App.Dominio\obj\Debug\net5.0\ref\TorneoDeFutbol.App.Dominio.dll
 C:\Users\caliv\OneDrive\Escritorio\VersionesMinTic\Cycle3\5_10_TorneoFutbol\TorneoDeFutbol.App\TorneoDeFutbol.App.Dominio\obj\Debug\net5.0\TorneoDeFutbol.App.Dominio.pdb
+C:\MisionTic2022-Ciclo3\TorneoFutbolDepartamental\TorneoFIFA\TorneoDeFutbol.App\TorneoDeFutbol.App.Dominio\bin\Debug\net5.0\TorneoDeFutbol.App.Dominio.deps.json
+C:\MisionTic2022-Ciclo3\TorneoFutbolDepartamental\TorneoFIFA\TorneoDeFutbol.App\TorneoDeFutbol.App.Dominio\bin\Debug\net5.0\TorneoDeFutbol.App.Dominio.dll
+C:\MisionTic2022-Ciclo3\TorneoFutbolDepartamental\TorneoFIFA\TorneoDeFutbol.App\TorneoDeFutbol.App.Dominio\bin\Debug\net5.0\ref\TorneoDeFutbol.App.Dominio.dll
+C:\MisionTic2022-Ciclo3\TorneoFutbolDepartamental\TorneoFIFA\TorneoDeFutbol.App\TorneoDeFutbol.App.Dominio\bin\Debug\net5.0\TorneoDeFutbol.App.Dominio.pdb
+C:\MisionTic2022-Ciclo3\TorneoFutbolDepartamental\TorneoFIFA\TorneoDeFutbol.App\TorneoDeFutbol.App.Dominio\obj\Debug\net5.0\TorneoDeFutbol.App.Dominio.csproj.AssemblyReference.cache
+C:\MisionTic2022-Ciclo3\TorneoFutbolDepartamental\TorneoFIFA\TorneoDeFutbol.App\TorneoDeFutbol.App.Dominio\obj\Debug\net5.0\TorneoDeFutbol.App.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\MisionTic2022-Ciclo3\TorneoFutbolDepartamental\TorneoFIFA\TorneoDeFutbol.App\TorneoDeFutbol.App.Dominio\obj\Debug\net5.0\TorneoDeFutbol.App.Dominio.AssemblyInfoInputs.cache
+C:\MisionTic2022-Ciclo3\TorneoFutbolDepartamental\TorneoFIFA\TorneoDeFutbol.App\TorneoDeFutbol.App.Dominio\obj\Debug\net5.0\TorneoDeFutbol.App.Dominio.AssemblyInfo.cs
+C:\MisionTic2022-Ciclo3\TorneoFutbolDepartamental\TorneoFIFA\TorneoDeFutbol.App\TorneoDeFutbol.App.Dominio\obj\Debug\net5.0\TorneoDeFutbol.App.Dominio.csproj.CoreCompileInputs.cache
+C:\MisionTic2022-Ciclo3\TorneoFutbolDepartamental\TorneoFIFA\TorneoDeFutbol.App\TorneoDeFutbol.App.Dominio\obj\Debug\net5.0\TorneoDeFutbol.App.Dominio.dll
+C:\MisionTic2022-Ciclo3\TorneoFutbolDepartamental\TorneoFIFA\TorneoDeFutbol.App\TorneoDeFutbol.App.Dominio\obj\Debug\net5.0\ref\TorneoDeFutbol.App.Dominio.dll
+C:\MisionTic2022-Ciclo3\TorneoFutbolDepartamental\TorneoFIFA\TorneoDeFutbol.App\TorneoDeFutbol.App.Dominio\obj\Debug\net5.0\TorneoDeFutbol.App.Dominio.pdb

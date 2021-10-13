@@ -24,13 +24,13 @@ namespace TorneoDeFutbol.App.Persistencia.Migrations
                 name: "Municipios",
                 columns: table => new
                 {
-                    idMunicipio = table.Column<int>(type: "int", nullable: false)
+                    Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    nombre = table.Column<string>(type: "nvarchar(max)", nullable: true)
+                    Nombre = table.Column<string>(type: "nvarchar(max)", nullable: true)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Municipios", x => x.idMunicipio);
+                    table.PrimaryKey("PK_Municipios", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
@@ -93,16 +93,16 @@ namespace TorneoDeFutbol.App.Persistencia.Migrations
                     nombre = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     direccion = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     capacidadEspectadores = table.Column<int>(type: "int", nullable: false),
-                    municipioidMunicipio = table.Column<int>(type: "int", nullable: true)
+                    municipioId = table.Column<int>(type: "int", nullable: true)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Estadios", x => x.idEstadio);
                     table.ForeignKey(
-                        name: "FK_Estadios_Municipios_municipioidMunicipio",
-                        column: x => x.municipioidMunicipio,
+                        name: "FK_Estadios_Municipios_municipioId",
+                        column: x => x.municipioId,
                         principalTable: "Municipios",
-                        principalColumn: "idMunicipio",
+                        principalColumn: "Id",
                         onDelete: ReferentialAction.Restrict);
                 });
 
@@ -113,7 +113,7 @@ namespace TorneoDeFutbol.App.Persistencia.Migrations
                     idEquipo = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     nombre = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    municipioidMunicipio = table.Column<int>(type: "int", nullable: true),
+                    municipioId = table.Column<int>(type: "int", nullable: true),
                     estadioidEstadio = table.Column<int>(type: "int", nullable: true),
                     jugadoridParticipante = table.Column<int>(type: "int", nullable: true),
                     registroidRegistro = table.Column<int>(type: "int", nullable: true),
@@ -131,10 +131,10 @@ namespace TorneoDeFutbol.App.Persistencia.Migrations
                         principalColumn: "idEstadio",
                         onDelete: ReferentialAction.Restrict);
                     table.ForeignKey(
-                        name: "FK_Equipos_Municipios_municipioidMunicipio",
-                        column: x => x.municipioidMunicipio,
+                        name: "FK_Equipos_Municipios_municipioId",
+                        column: x => x.municipioId,
                         principalTable: "Municipios",
-                        principalColumn: "idMunicipio",
+                        principalColumn: "Id",
                         onDelete: ReferentialAction.Restrict);
                     table.ForeignKey(
                         name: "FK_Equipos_Participantes_directorTecnicoidParticipante",
@@ -170,9 +170,7 @@ namespace TorneoDeFutbol.App.Persistencia.Migrations
                     tiempo = table.Column<int>(type: "int", nullable: false),
                     equipoidEquipo = table.Column<int>(type: "int", nullable: true),
                     arbitroidParticipante = table.Column<int>(type: "int", nullable: true),
-                    estadioidEstadio = table.Column<int>(type: "int", nullable: true),
-                    equipoLocal = table.Column<bool>(type: "bit", nullable: false),
-                    equipoVisitante = table.Column<bool>(type: "bit", nullable: false)
+                    estadioidEstadio = table.Column<int>(type: "int", nullable: true)
                 },
                 constraints: table =>
                 {
@@ -275,9 +273,9 @@ namespace TorneoDeFutbol.App.Persistencia.Migrations
                 column: "jugadoridParticipante");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Equipos_municipioidMunicipio",
+                name: "IX_Equipos_municipioId",
                 table: "Equipos",
-                column: "municipioidMunicipio");
+                column: "municipioId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_Equipos_registroidRegistro",
@@ -285,9 +283,9 @@ namespace TorneoDeFutbol.App.Persistencia.Migrations
                 column: "registroidRegistro");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Estadios_municipioidMunicipio",
+                name: "IX_Estadios_municipioId",
                 table: "Estadios",
-                column: "municipioidMunicipio");
+                column: "municipioId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_Participantes_colegioidColegio",

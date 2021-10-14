@@ -285,8 +285,6 @@ C:\MisionTic2022-Ciclo3\TorneoFutbolDepartamental\TorneoFIFA\TorneoDeFutbol.App\
 C:\MisionTic2022-Ciclo3\TorneoFutbolDepartamental\TorneoFIFA\TorneoDeFutbol.App\TorneoDeFutbol.App.Frontend\obj\Debug\net5.0\Razor\Pages\Colegios\Index.cshtml.g.cs
 C:\MisionTic2022-Ciclo3\TorneoFutbolDepartamental\TorneoFIFA\TorneoDeFutbol.App\TorneoDeFutbol.App.Frontend\obj\Debug\net5.0\Razor\Pages\DatosPartidos\Details.cshtml.g.cs
 C:\MisionTic2022-Ciclo3\TorneoFutbolDepartamental\TorneoFIFA\TorneoDeFutbol.App\TorneoDeFutbol.App.Frontend\obj\Debug\net5.0\Razor\Pages\DatosPartidos\Index.cshtml.g.cs
-C:\MisionTic2022-Ciclo3\TorneoFutbolDepartamental\TorneoFIFA\TorneoDeFutbol.App\TorneoDeFutbol.App.Frontend\obj\Debug\net5.0\Razor\Pages\Directores\Details.cshtml.g.cs
-C:\MisionTic2022-Ciclo3\TorneoFutbolDepartamental\TorneoFIFA\TorneoDeFutbol.App\TorneoDeFutbol.App.Frontend\obj\Debug\net5.0\Razor\Pages\Directores\Index.cshtml.g.cs
 C:\MisionTic2022-Ciclo3\TorneoFutbolDepartamental\TorneoFIFA\TorneoDeFutbol.App\TorneoDeFutbol.App.Frontend\obj\Debug\net5.0\Razor\Pages\Equipos\Details.cshtml.g.cs
 C:\MisionTic2022-Ciclo3\TorneoFutbolDepartamental\TorneoFIFA\TorneoDeFutbol.App\TorneoDeFutbol.App.Frontend\obj\Debug\net5.0\Razor\Pages\Equipos\Index.cshtml.g.cs
 C:\MisionTic2022-Ciclo3\TorneoFutbolDepartamental\TorneoFIFA\TorneoDeFutbol.App\TorneoDeFutbol.App.Frontend\obj\Debug\net5.0\Razor\Pages\Error.cshtml.g.cs
@@ -314,3 +312,7 @@ C:\MisionTic2022-Ciclo3\TorneoFutbolDepartamental\TorneoFIFA\TorneoDeFutbol.App\
 C:\MisionTic2022-Ciclo3\TorneoFutbolDepartamental\TorneoFIFA\TorneoDeFutbol.App\TorneoDeFutbol.App.Frontend\obj\Debug\net5.0\TorneoDeFutbol.App.Frontend.genruntimeconfig.cache
 C:\MisionTic2022-Ciclo3\TorneoFutbolDepartamental\TorneoFIFA\TorneoDeFutbol.App\TorneoDeFutbol.App.Frontend\obj\Debug\net5.0\Razor\Pages\Municipios\Create.cshtml.g.cs
 C:\MisionTic2022-Ciclo3\TorneoFutbolDepartamental\TorneoFIFA\TorneoDeFutbol.App\TorneoDeFutbol.App.Frontend\obj\Debug\net5.0\Razor\Pages\Municipios\Edit.cshtml.g.cs
+C:\MisionTic2022-Ciclo3\TorneoFutbolDepartamental\TorneoFIFA\TorneoDeFutbol.App\TorneoDeFutbol.App.Frontend\obj\Debug\net5.0\Razor\Pages\Directores_Tecnicos\Create.cshtml.g.cs
+C:\MisionTic2022-Ciclo3\TorneoFutbolDepartamental\TorneoFIFA\TorneoDeFutbol.App\TorneoDeFutbol.App.Frontend\obj\Debug\net5.0\Razor\Pages\Directores_Tecnicos\Details.cshtml.g.cs
+C:\MisionTic2022-Ciclo3\TorneoFutbolDepartamental\TorneoFIFA\TorneoDeFutbol.App\TorneoDeFutbol.App.Frontend\obj\Debug\net5.0\Razor\Pages\Directores_Tecnicos\Index.cshtml.g.cs
+C:\MisionTic2022-Ciclo3\TorneoFutbolDepartamental\TorneoFIFA\TorneoDeFutbol.App\TorneoDeFutbol.App.Frontend\obj\Debug\net5.0\Razor\Pages\Directores_Tecnicos\Edit.cshtml.g.cs

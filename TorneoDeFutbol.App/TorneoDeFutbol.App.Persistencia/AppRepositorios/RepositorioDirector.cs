@@ -26,32 +26,31 @@ namespace TorneoDeFutbol.App.Persistencia
         //Método para Actualizar Director_Tecnico
         Director_Tecnico IRepositorioDirector.UpdateDirectorTecnico(Director_Tecnico director)
         {
-            var directorEncontrado = _appContext.DirectoresTecnicos.Find(director.idParticipante);
+            var director_tecnicoEncontrado = _appContext.DirectoresTecnicos.Find(director.idParticipante);
             
-            if (directorEncontrado != null)
+            if (director_tecnicoEncontrado != null)
             {
-                directorEncontrado.nombre = director.nombre;
-                directorEncontrado.apellido = director.apellido;
-                directorEncontrado.numTelefono = director.numTelefono;
-                directorEncontrado.direccion = director.direccion;
-                directorEncontrado.ciudad = director.ciudad;
-                directorEncontrado.fechaNacimiento = director.fechaNacimiento;
-                directorEncontrado.genero = director.genero;
-                directorEncontrado.idParticipante = director.idParticipante;
-                directorEncontrado.numDocumento = director.numDocumento;
-                directorEncontrado.aniosExperiencia = director.aniosExperiencia;
+                director_tecnicoEncontrado.nombre = director.nombre;
+                director_tecnicoEncontrado.apellido = director.apellido;
+                director_tecnicoEncontrado.numTelefono = director.numTelefono;
+                director_tecnicoEncontrado.direccion = director.direccion;
+                director_tecnicoEncontrado.ciudad = director.ciudad;
+                director_tecnicoEncontrado.fechaNacimiento = director.fechaNacimiento;
+                director_tecnicoEncontrado.genero = director.genero;
+                director_tecnicoEncontrado.numDocumento = director.numDocumento;
+                director_tecnicoEncontrado.aniosExperiencia = director.aniosExperiencia;
                  _appContext.SaveChanges();
             }
-            return directorEncontrado;
+            return director_tecnicoEncontrado;
         }
 
          //Método para Eliminar Director Técnico
         public void DeleteDirectorTecnico(int Id_DirectorTecnico)
         {
-            var directorTecnicoEncontrado = _appContext.DirectoresTecnicos.Find(Id_DirectorTecnico);
-            if (directorTecnicoEncontrado == null)
+            var director_tecnicoEncontrado = _appContext.DirectoresTecnicos.Find(Id_DirectorTecnico);
+            if (director_tecnicoEncontrado == null)
                 return;
-            _appContext.DirectoresTecnicos.Remove(directorTecnicoEncontrado);
+            _appContext.DirectoresTecnicos.Remove(director_tecnicoEncontrado);
             _appContext.SaveChanges();
          }
 

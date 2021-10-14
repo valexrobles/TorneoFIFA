@@ -1,0 +1,52 @@
+﻿@page
+@using TorneoDeFutbol.App.Dominio
+@model TorneoDeFutbol.App.Frontend.Pages.Directores_Tecnicos.EditModel
+@{
+}
+<h1>Director Técnico</h1>
+<form method="post">
+    <div class="form-group">
+        <label asp-for="director_tecnico.idParticipante"></label>
+        <input asp-for="director_tecnico.idParticipante" class="form-control" readonly>
+    </div>
+    <div class="form-group">
+        <label asp-for="director_tecnico.nombre"></label>
+        <input asp-for="director_tecnico.nombre" class="form-control">
+        <span asp-validation-for="director_tecnico.nombre" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="director_tecnico.apellido"></label>
+        <input asp-for="director_tecnico.apellido" class="form-control">
+        <span asp-validation-for="director_tecnico.apellido" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="director_tecnico.numDocumento"></label>
+        <input asp-for="director_tecnico.numDocumento" class="form-control">
+    </div>
+    <div class="form-group">
+        <label asp-for="director_tecnico.aniosExperiencia"></label>
+        <input asp-for="director_tecnico.aniosExperiencia" class="form-control">
+    </div>
+    <div class="form-group">
+        <label asp-for="director_tecnico.fechaNacimiento"></label>
+        <input asp-for="director_tecnico.fechaNacimiento" class="form-control">
+    </div>
+    <div class="form-group">
+        <label asp-for="director_tecnico.genero"></label>
+        <select asp-for="director_tecnico.genero" asp-items="Html.GetEnumSelectList<Genero>()"class="form-control"></select>
+    </div>
+    <div class="form-group">
+        <label asp-for="director_tecnico.ciudad"></label>
+        <input asp-for="director_tecnico.ciudad" class="form-control">
+    </div>
+    <div class="form-group">
+        <label asp-for="director_tecnico.direccion"></label>
+        <input asp-for="director_tecnico.direccion" class="form-control">
+    </div>
+    <div class="form-group">
+        <label asp-for="director_tecnico.numTelefono"></label>
+        <input asp-for="director_tecnico.numTelefono" class="form-control">
+    </div>
+    <button type="submit" class="btn btn-secondary">Editar Director Técnico</button>
+</form>
+<a class="btn btn-primary" asp-page="./Index">Cancelar</a>

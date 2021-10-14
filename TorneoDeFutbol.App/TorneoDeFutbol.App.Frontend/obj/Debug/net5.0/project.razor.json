@@ -15619,6 +15619,11 @@
   "RootNamespace": "TorneoDeFutbol.App.Frontend",
   "Documents": [
     {
+      "FilePath": "c:\\Users\\caliv\\OneDrive\\Escritorio\\VersionesMinTic\\Cycle3\\5_10_TorneoFutbol\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Frontend\\Pages\\Directores\\Create.cshtml",
+      "TargetPath": "Pages\\Directores\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\caliv\\OneDrive\\Escritorio\\VersionesMinTic\\Cycle3\\5_10_TorneoFutbol\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Frontend\\Pages\\Shared\\_Layout.cshtml",
       "TargetPath": "Pages\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
@@ -15726,6 +15731,11 @@
     {
       "FilePath": "c:\\Users\\caliv\\OneDrive\\Escritorio\\VersionesMinTic\\Cycle3\\5_10_TorneoFutbol\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Frontend\\Pages\\Estadios\\Index.cshtml",
       "TargetPath": "Pages\\Estadios\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\caliv\\OneDrive\\Escritorio\\VersionesMinTic\\Cycle3\\5_10_TorneoFutbol\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Frontend\\Pages\\DatosPartidos\\Create.cshtml",
+      "TargetPath": "Pages\\DatosPartidos\\Create.cshtml",
       "FileKind": "mvc"
     },
     {

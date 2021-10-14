@@ -1,0 +1,41 @@
+﻿@page
+@model TorneoDeFutbol.App.Frontend.Pages.Directores.CreateModel
+@{
+}
+<h1>Nuevo Director Técnico</h1>
+<form method = "post">
+    
+    <div class = "form-group">
+        <label asp-for = "director.nombre"></label>
+        <input asp-for = "director.nombre" class = "form-control">
+    </div>
+    <div class = "form-group">
+        <label asp-for = "director.apellido"></label>
+        <input asp-for = "director.apellido" class = "form-control">
+    </div>
+    <div class = "form-group">
+        <label asp-for = "director.numDocumento"></label>
+        <input asp-for = "director.numDocumento" class = "form-control">
+    </div>
+    <div class = "form-group">
+        <label asp-for = "director.fechaNacimiento"></label>
+        <input asp-for = "director.fechaNacimiento" class = "form-control">
+    </div>
+    <div class = "form-group">
+        <label asp-for = "director.genero"></label>
+        <select asp-for = "director.genero" asp-items = "Html.GetEnumSelectList<Genero>()" class = "form-control"></select>
+    </div>
+    <div class = "form-group">
+        <label asp-for = "director.numTelefono"></label>
+        <input asp-for = "director.numTelefono" class = "form-control">
+    </div>
+    <div class = "form-group">
+        <label asp-for = "director.direccion"></label>
+        <input asp-for = "director.direccion" class = "form-control">
+    </div>
+    
+    <button Type = "Submit" class = "btn btn-primary btn-lg float-right">Crear Jugador
+    </button>
+    
+</form>
+<a class = "btn btn-warning btn-lg float-left" asp-page = "./Index">Volver</a>

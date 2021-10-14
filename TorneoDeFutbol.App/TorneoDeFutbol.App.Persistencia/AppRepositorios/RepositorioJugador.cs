@@ -62,9 +62,9 @@ namespace TorneoDeFutbol.App.Persistencia
             }
         }
    
-        public Jugador GetJugador(int numCamiseta)
+        public Jugador GetJugador(int idParticipante)
         {
-            return _appContext.Jugadores.Where(x=>x.numCamiseta==numCamiseta).FirstOrDefault();
+            return _appContext.Jugadores.Where(x=>x.idParticipante==idParticipante).FirstOrDefault();
         }
     }
 }

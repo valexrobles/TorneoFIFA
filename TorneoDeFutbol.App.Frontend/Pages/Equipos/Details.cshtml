@@ -18,10 +18,7 @@
              <th scope="col">Estadio</th>
              <td>@Model.equipo.estadio</td>   
         </tr>
-        <tr>
-            <th scope="col">Jugador</th>
-            <td>@Model.equipo.jugador</td>
-        </tr>
+      
           <tr>
             <th scope="col">Registro</th>
             <td>@Model.equipo.registro</td>
@@ -30,7 +27,21 @@
             <th scope="col">Director Tecnico</th>
             <td>@Model.equipo.directorTecnico</td>
         </tr>
-       
+        <tr>
+         <th scope="col">Jugador</th>
+        @if (Model.equipo.jugador == null)
+        {
+            <th>
+                <a class="btn btn-secondary" asp-page="./AddJugador" asp-route-idEquipo="@Model.equipo.idEquipo">
+                    Asignar Jugador
+                </a>
+            </th>
+        }
+        else
+        {
+            <td>@Model.equipo.jugador.nombre</td>
+        }
+    </tr>
     </table>
             
     <a class="btn btn-secondary" asp-page="./Index">Volver</a>

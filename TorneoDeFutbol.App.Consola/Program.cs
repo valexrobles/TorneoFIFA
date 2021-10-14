@@ -20,8 +20,8 @@ namespace TorneoDeFutbol.App.Consola
             //IndexParticipantes();
             
            //AddParticipante();
-            //AddJugador();
-            AddEquipo();
+            AddJugador();
+            //AddEquipo();
             //AddDirectorTecnico();
             //AddArbitro();
             //AddColegio();
@@ -58,15 +58,15 @@ namespace TorneoDeFutbol.App.Consola
                 var Jugador = new Jugador
                 {
                     
-                    numDocumento="1061717456",
-                    nombre = "Diego",
-                    apellido = "Maradona",
-                    direccion = "La plata 123",
-                    numTelefono = "54263637",
-                    ciudad = "Avellaneda",
-                    genero = (Genero)Enum.Parse(typeof(Genero), "PanSexual"),
+                    numDocumento="10852471255",
+                    nombre = "James",
+                    apellido = "Rodriguez",
+                    direccion = "Cll 100",
+                    numTelefono = "854515",
+                    ciudad = "Bogota",
+                    genero = (Genero)Enum.Parse(typeof(Genero), "Masculino"),
                     numCamiseta = 1010,
-                    fechaNacimiento = Convert.ToDateTime("11/04/1940"),
+                    fechaNacimiento = Convert.ToDateTime("12/07/1991"),
                     posicion = Posicion.DelanteroExtremo
                 };
                 _repoJugador.AddJugador(Jugador);
@@ -122,7 +122,7 @@ namespace TorneoDeFutbol.App.Consola
             
             private static void AsignarJugador()
             {
-                var jugador = _repoEquipo.AsignarJugador(4,1);
+                var jugador = _repoEquipo.AsignarJugador(1,1);
                 Console.WriteLine(jugador.nombre + " "+ jugador.apellido);
             }
 

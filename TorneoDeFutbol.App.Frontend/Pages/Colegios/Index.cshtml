@@ -2,3 +2,30 @@
 @model TorneoDeFutbol.App.Frontend.Pages.Colegios.IndexModel
 @{
 }
+
+<a class="btn btn-primary" asp-page="./Create">Crear Colegio</a>
+
+<h1>Listado de Colegios</h1>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th scope="col">Nombre</th>
+            <th scope="col">Acciones</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var colegio in Model.colegios)
+        {
+            <tr>
+                <td>@colegio.nombre</td>
+                
+                <td>
+                    <a class="btn btn-primary" asp-page="./Details" asp-route-idColegio="@colegio.idColegio">Detalle</a>
+                    <a class="btn btn-secondary" asp-page="./Edit" asp-route-idColegio="@colegio.idColegio">Editar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\caliv\\OneDrive\\Escritorio\\5_10_TorneoFutbol\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Frontend\\TorneoDeFutbol.App.Frontend.csproj",
+  "FilePath": "c:\\Programación\\retos\\TorneoFIFA\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Frontend\\TorneoDeFutbol.App.Frontend.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "5.0",
@@ -15619,132 +15619,212 @@
   "RootNamespace": "TorneoDeFutbol.App.Frontend",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\caliv\\OneDrive\\Escritorio\\5_10_TorneoFutbol\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Frontend\\Pages\\Index.cshtml",
-      "TargetPath": "Pages\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\caliv\\OneDrive\\Escritorio\\5_10_TorneoFutbol\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Frontend\\Pages\\Municipios\\Details.cshtml",
-      "TargetPath": "Pages\\Municipios\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\caliv\\OneDrive\\Escritorio\\5_10_TorneoFutbol\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Frontend\\Pages\\Arbitros\\Index.cshtml",
-      "TargetPath": "Pages\\Arbitros\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\caliv\\OneDrive\\Escritorio\\5_10_TorneoFutbol\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Frontend\\Pages\\Directores\\Index.cshtml",
-      "TargetPath": "Pages\\Directores\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\caliv\\OneDrive\\Escritorio\\5_10_TorneoFutbol\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Frontend\\Pages\\Error.cshtml",
-      "TargetPath": "Pages\\Error.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\caliv\\OneDrive\\Escritorio\\5_10_TorneoFutbol\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Frontend\\Pages\\Jugadores\\Create.cshtml",
-      "TargetPath": "Pages\\Jugadores\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\caliv\\OneDrive\\Escritorio\\5_10_TorneoFutbol\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Frontend\\Pages\\Estadios\\Index.cshtml",
-      "TargetPath": "Pages\\Estadios\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\caliv\\OneDrive\\Escritorio\\5_10_TorneoFutbol\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Frontend\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Pages\\Shared\\_ValidationScriptsPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\caliv\\OneDrive\\Escritorio\\5_10_TorneoFutbol\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Frontend\\Pages\\DatosPartidos\\Details.cshtml",
-      "TargetPath": "Pages\\DatosPartidos\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\caliv\\OneDrive\\Escritorio\\5_10_TorneoFutbol\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Frontend\\Pages\\Participantes\\Index.cshtml",
-      "TargetPath": "Pages\\Participantes\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\caliv\\OneDrive\\Escritorio\\5_10_TorneoFutbol\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Frontend\\Pages\\Jugadores\\Index.cshtml",
-      "TargetPath": "Pages\\Jugadores\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\caliv\\OneDrive\\Escritorio\\5_10_TorneoFutbol\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Frontend\\Pages\\Estadios\\Details.cshtml",
-      "TargetPath": "Pages\\Estadios\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\caliv\\OneDrive\\Escritorio\\5_10_TorneoFutbol\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Frontend\\Pages\\Colegios\\Index.cshtml",
-      "TargetPath": "Pages\\Colegios\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\caliv\\OneDrive\\Escritorio\\5_10_TorneoFutbol\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Frontend\\Pages\\Shared\\_Layout.cshtml",
-      "TargetPath": "Pages\\Shared\\_Layout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\caliv\\OneDrive\\Escritorio\\5_10_TorneoFutbol\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Frontend\\Pages\\Municipios\\Index.cshtml",
+      "FilePath": "c:\\Programación\\retos\\TorneoFIFA\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Frontend\\Pages\\Municipios\\Index.cshtml",
       "TargetPath": "Pages\\Municipios\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\caliv\\OneDrive\\Escritorio\\5_10_TorneoFutbol\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Frontend\\Pages\\Arbitros\\Details.cshtml",
-      "TargetPath": "Pages\\Arbitros\\Details.cshtml",
+      "FilePath": "c:\\Programación\\retos\\TorneoFIFA\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Frontend\\Pages\\Estadios\\Details.cshtml",
+      "TargetPath": "Pages\\Estadios\\Details.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\caliv\\OneDrive\\Escritorio\\5_10_TorneoFutbol\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Frontend\\Pages\\Jugadores\\Details.cshtml",
-      "TargetPath": "Pages\\Jugadores\\Details.cshtml",
+      "FilePath": "c:\\Programación\\retos\\TorneoFIFA\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Frontend\\Pages\\Error.cshtml",
+      "TargetPath": "Pages\\Error.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\caliv\\OneDrive\\Escritorio\\5_10_TorneoFutbol\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Frontend\\Pages\\Directores\\Details.cshtml",
-      "TargetPath": "Pages\\Directores\\Details.cshtml",
+      "FilePath": "c:\\Programación\\retos\\TorneoFIFA\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Frontend\\Pages\\Equipos\\Create.cshtml",
+      "TargetPath": "Pages\\Equipos\\Create.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\caliv\\OneDrive\\Escritorio\\5_10_TorneoFutbol\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Frontend\\Pages\\Privacy.cshtml",
-      "TargetPath": "Pages\\Privacy.cshtml",
+      "FilePath": "c:\\Programación\\retos\\TorneoFIFA\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Frontend\\Pages\\DirectoresTecnicos\\Details.cshtml",
+      "TargetPath": "Pages\\DirectoresTecnicos\\Details.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\caliv\\OneDrive\\Escritorio\\5_10_TorneoFutbol\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Frontend\\Pages\\Equipos\\Index.cshtml",
-      "TargetPath": "Pages\\Equipos\\Index.cshtml",
+      "FilePath": "c:\\Programación\\retos\\TorneoFIFA\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Frontend\\Pages\\Shared\\_Layout.cshtml",
+      "TargetPath": "Pages\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\caliv\\OneDrive\\Escritorio\\5_10_TorneoFutbol\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Frontend\\Pages\\_ViewImports.cshtml",
-      "TargetPath": "Pages\\_ViewImports.cshtml",
+      "FilePath": "c:\\Programación\\retos\\TorneoFIFA\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Frontend\\Pages\\Jugadores\\Create.cshtml",
+      "TargetPath": "Pages\\Jugadores\\Create.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\caliv\\OneDrive\\Escritorio\\5_10_TorneoFutbol\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Frontend\\Pages\\DatosPartidos\\Index.cshtml",
-      "TargetPath": "Pages\\DatosPartidos\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\caliv\\OneDrive\\Escritorio\\5_10_TorneoFutbol\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Frontend\\Pages\\_ViewStart.cshtml",
-      "TargetPath": "Pages\\_ViewStart.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\caliv\\OneDrive\\Escritorio\\5_10_TorneoFutbol\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Frontend\\Pages\\Equipos\\Details.cshtml",
+      "FilePath": "c:\\Programación\\retos\\TorneoFIFA\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Frontend\\Pages\\Equipos\\Details.cshtml",
       "TargetPath": "Pages\\Equipos\\Details.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\caliv\\OneDrive\\Escritorio\\5_10_TorneoFutbol\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Frontend\\Pages\\Colegios\\Details.cshtml",
+      "FilePath": "c:\\Programación\\retos\\TorneoFIFA\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Frontend\\Pages\\Municipios\\Edit.cshtml",
+      "TargetPath": "Pages\\Municipios\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Programación\\retos\\TorneoFIFA\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Frontend\\Pages\\Equipos\\Index.cshtml",
+      "TargetPath": "Pages\\Equipos\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Programación\\retos\\TorneoFIFA\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Frontend\\Pages\\DirectoresTecnicos\\Index.cshtml",
+      "TargetPath": "Pages\\DirectoresTecnicos\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Programación\\retos\\TorneoFIFA\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Frontend\\Pages\\Jugadores\\Index.cshtml",
+      "TargetPath": "Pages\\Jugadores\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Programación\\retos\\TorneoFIFA\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Frontend\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Programación\\retos\\TorneoFIFA\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Frontend\\Pages\\Arbitros\\Edit.cshtml",
+      "TargetPath": "Pages\\Arbitros\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Programación\\retos\\TorneoFIFA\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Frontend\\Pages\\Jugadores\\Edit.cshtml",
+      "TargetPath": "Pages\\Jugadores\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Programación\\retos\\TorneoFIFA\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Frontend\\Pages\\Estadios\\Index.cshtml",
+      "TargetPath": "Pages\\Estadios\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Programación\\retos\\TorneoFIFA\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Frontend\\Pages\\Arbitros\\Details.cshtml",
+      "TargetPath": "Pages\\Arbitros\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Programación\\retos\\TorneoFIFA\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Frontend\\Pages\\DatosPartidos\\Edit.cshtml",
+      "TargetPath": "Pages\\DatosPartidos\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Programación\\retos\\TorneoFIFA\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Frontend\\Pages\\Jugadores\\Details.cshtml",
+      "TargetPath": "Pages\\Jugadores\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Programación\\retos\\TorneoFIFA\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Frontend\\Pages\\Colegios\\Create.cshtml",
+      "TargetPath": "Pages\\Colegios\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Programación\\retos\\TorneoFIFA\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Frontend\\Pages\\Estadios\\Create.cshtml",
+      "TargetPath": "Pages\\Estadios\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Programación\\retos\\TorneoFIFA\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Frontend\\Pages\\Colegios\\Index.cshtml",
+      "TargetPath": "Pages\\Colegios\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Programación\\retos\\TorneoFIFA\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Frontend\\Pages\\Arbitros\\Create.cshtml",
+      "TargetPath": "Pages\\Arbitros\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Programación\\retos\\TorneoFIFA\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Frontend\\Pages\\DatosPartidos\\Index.cshtml",
+      "TargetPath": "Pages\\DatosPartidos\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Programación\\retos\\TorneoFIFA\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Frontend\\Pages\\DatosPartidos\\Details.cshtml",
+      "TargetPath": "Pages\\DatosPartidos\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Programación\\retos\\TorneoFIFA\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Frontend\\Pages\\DirectoresTecnicos\\Create.cshtml",
+      "TargetPath": "Pages\\DirectoresTecnicos\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Programación\\retos\\TorneoFIFA\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Frontend\\Pages\\Arbitros\\Index.cshtml",
+      "TargetPath": "Pages\\Arbitros\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Programación\\retos\\TorneoFIFA\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Frontend\\Pages\\_ViewImports.cshtml",
+      "TargetPath": "Pages\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Programación\\retos\\TorneoFIFA\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Frontend\\Pages\\Estadios\\Edit.cshtml",
+      "TargetPath": "Pages\\Estadios\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Programación\\retos\\TorneoFIFA\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Frontend\\Pages\\Colegios\\Details.cshtml",
       "TargetPath": "Pages\\Colegios\\Details.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\caliv\\OneDrive\\Escritorio\\5_10_TorneoFutbol\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Frontend\\Pages\\Participantes\\Details.cshtml",
+      "FilePath": "c:\\Programación\\retos\\TorneoFIFA\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Frontend\\Pages\\_ViewStart.cshtml",
+      "TargetPath": "Pages\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Programación\\retos\\TorneoFIFA\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Frontend\\Pages\\Participantes\\Index.cshtml",
+      "TargetPath": "Pages\\Participantes\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Programación\\retos\\TorneoFIFA\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Frontend\\Pages\\Equipos\\Edit.cshtml",
+      "TargetPath": "Pages\\Equipos\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Programación\\retos\\TorneoFIFA\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Frontend\\Pages\\Municipios\\Details.cshtml",
+      "TargetPath": "Pages\\Municipios\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Programación\\retos\\TorneoFIFA\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Frontend\\Pages\\Municipios\\Create.cshtml",
+      "TargetPath": "Pages\\Municipios\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Programación\\retos\\TorneoFIFA\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Frontend\\Pages\\Equipos\\AddJugador.cshtml",
+      "TargetPath": "Pages\\Equipos\\AddJugador.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Programación\\retos\\TorneoFIFA\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Frontend\\Pages\\Colegios\\Edit.cshtml",
+      "TargetPath": "Pages\\Colegios\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Programación\\retos\\TorneoFIFA\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Frontend\\Pages\\Index.cshtml",
+      "TargetPath": "Pages\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Programación\\retos\\TorneoFIFA\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Frontend\\Pages\\Privacy.cshtml",
+      "TargetPath": "Pages\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Programación\\retos\\TorneoFIFA\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Frontend\\Pages\\DirectoresTecnicos\\Edit.cshtml",
+      "TargetPath": "Pages\\DirectoresTecnicos\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Programación\\retos\\TorneoFIFA\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Frontend\\Pages\\DatosPartidos\\Create.cshtml",
+      "TargetPath": "Pages\\DatosPartidos\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Programación\\retos\\TorneoFIFA\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Frontend\\Pages\\Participantes\\Details.cshtml",
       "TargetPath": "Pages\\Participantes\\Details.cshtml",
       "FileKind": "mvc"
     }

@@ -1,4 +1,45 @@
 ﻿@page
-@model TorneoDeFutbol.App.Frontend.Pages.Arbitros.DetailsModel
+@model TorneoDeFutbol.App.Frontend.pages.Arbitros.DetailsModel
 @{
 }
+<h1>Detalle del Arbitro</h1>
+
+<table class="table table-striped">
+ 
+        <tr>
+            <th scope="col">Nombres</th>
+            <td>@Model.arbitro.nombre</td>
+        </tr>
+        <tr>
+            <th scope="col">Apellidos</th> 
+            <td>@Model.arbitro.apellido</td>   
+        </tr>
+        <tr>
+             <th scope="col">Teléfono</th>
+             <td>@Model.arbitro.numTelefono</td>   
+        </tr>
+        <tr>
+            <th scope="col">Direccion</th>
+            <td>@Model.arbitro.direccion</td>
+        </tr>
+        <tr>
+            <th scope="col">Fecha de Nacimiento</th>
+            <td>@Model.arbitro.fechaNacimiento</td>
+        </tr>
+        <tr>
+            <th scope="col">Arbitro FIFA</th>
+            <td>@Model.arbitro.arbitroFIFA</td>
+        </tr>
+        <tr>
+            <th scope="col">Fecha de Afilicacion FIFA</th>
+            <td>@Model.arbitro.fechaAfiliacionFIFA </td>
+        </tr>
+        <tr>
+            <th scope="col">Colegio</th>
+            <td>@Model.arbitro.colegio</td>
+        </tr>
+       
+    </table>
+            
+    <a class="btn btn-secondary" asp-page="./Index">Volver</a>
+

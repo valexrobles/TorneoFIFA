@@ -1,5 +1,7 @@
 using TorneoDeFutbol.App.Dominio;
 using System.Collections.Generic;
+using System.Linq;
+
 
 namespace TorneoDeFutbol.App.Persistencia
 {
@@ -12,4 +14,5 @@ namespace TorneoDeFutbol.App.Persistencia
         void DeleteJugador(int idJugador);
         Jugador GetJugador(int idJugador);
     }
+        
 }

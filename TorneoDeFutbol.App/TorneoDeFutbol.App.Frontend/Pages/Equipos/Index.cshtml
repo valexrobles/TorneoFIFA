@@ -10,6 +10,7 @@
 <table class="table table-striped">
     <thead>
         <tr>
+            <th scope="col">ID</th>
             <th scope="col">Nombres</th>
             <th scope="col">Municipio</th>
             <th scope="col">Estadio</th>
@@ -24,6 +25,7 @@
         @foreach (var equipo in Model.equipos)
         {
             <tr>
+                <td>@equipo.idEquipo</td>
                 <td>@equipo.nombre</td>
                 <td>@equipo.municipio</td>
                 <td>@equipo.estadio</td>

@@ -14,6 +14,8 @@ namespace TorneoDeFutbol.App.Frontend.Pages.Equipos
         private readonly IRepositorioEquipo _repoEquipo;
         public IEnumerable<Equipo> equipos {get; set;}
         
+
+        
         public IndexModel(IRepositorioEquipo repoEquipo)
         {
             _repoEquipo = repoEquipo;

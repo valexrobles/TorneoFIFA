@@ -1,4 +1,51 @@
 ﻿@page
-@model TorneoDeFutbol.App.Frontend.Pages.Arbitros.CreateModel
+@using TorneoDeFutbol.App.Dominio;
+@model TorneoDeFutbol.App.Frontend.pages.Arbitros.CreateModel
 @{
 }
+<h1>Nuevo Arbitro</h1>
+<form method = "post">
+    
+    <div class = "form-group">
+        <label asp-for = "arbitro.numDocumento"></label>
+        <input asp-for = "arbitro.numDocumento" class = "form-control">
+        <span class="text-danger" asp-validation-for="arbitro.numDocumento"></span>
+    </div>
+    <div class = "form-group">
+        <label asp-for = "arbitro.fechaNacimiento"></label>
+        <input asp-for = "arbitro.fechaNacimiento" class = "form-control">
+    </div>
+    <div class = "form-group">
+        <label asp-for = "arbitro.nombre"></label>
+        <input asp-for = "arbitro.nombre" class = "form-control">
+        <span class="text-danger" asp-validation-for="arbitro.nombre"></span>
+    </div>
+    <div class = "form-group">
+        <label asp-for = "arbitro.apellido"></label>
+        <input asp-for = "arbitro.apellido" class = "form-control">
+        <span class="text-danger" asp-validation-for="arbitro.apellido"></span>
+    </div>
+    <div class = "form-group">
+        <label asp-for = "arbitro.numTelefono"></label>
+        <input asp-for = "arbitro.numTelefono" class = "form-control">
+    </div>
+    <div class = "form-group">
+        <label asp-for = "arbitro.genero"></label>
+        <select asp-for = "arbitro.genero" asp-items = "Html.GetEnumSelectList<Genero>()" class = "form-control"></select>
+    </div>
+    <div class = "form-group">
+        <label asp-for = "arbitro.direccion"></label>
+        <input asp-for = "arbitro.direccion" class = "form-control">
+    </div>
+    <div class = "form-group">
+        <label asp-for = "arbitro.arbitroFIFA"></label>
+        <input asp-for = "arbitro.arbitroFIFA" class = "form-control">
+    </div>
+     <div class = "form-group">
+        <label asp-for = "arbitro.fechaAfiliacionFIFA"></label>
+        <input asp-for = "arbitro.fechaAfiliacionFIFA" class = "form-control">
+    </div>
+    
+   <button type="submit" class="btn btn-primary btn-block">Crear Arbitro</button>
+</form>
+<a class="btn btn-secondary" asp-page="./Index">Volver</a>

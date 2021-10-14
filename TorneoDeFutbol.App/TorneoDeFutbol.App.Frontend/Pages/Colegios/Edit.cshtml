@@ -1,4 +1,21 @@
 ﻿@page
+@using TorneoDeFutbol.App.Dominio
 @model TorneoDeFutbol.App.Frontend.Pages.Colegios.EditModel
 @{
 }
+<h1>Nuevo Colegio</h1>
+<form method="post">
+    <div class="form-group">
+        <label asp-for="colegio.idColegio"></label>
+        <input asp-for="colegio.idColegio" class="form-control" readonly>
+    </div>
+    <div class="form-group">
+        <label asp-for="colegio.nombre"></label>
+        <input asp-for="colegio.nombre" class="form-control">
+        <span class="text-danger" asp-validation-for="colegio.nombre"></span>
+    </div>
+   
+   
+    <button type="submit" class="btn btn-primary btn-block">Actualizar Arbitro</button>
+</form>
+<a class="btn btn-secondary" asp-page="./Index">Volver</a>

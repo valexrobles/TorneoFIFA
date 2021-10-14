@@ -66,5 +66,20 @@ namespace TorneoDeFutbol.App.Persistencia
         {
             return _appContext.Jugadores.Where(x=>x.idParticipante==idParticipante).FirstOrDefault();
         }
+
+        public IEnumerable<Jugador> GetJugadoresPosicion(int posicion)
+        {
+            return _appContext.Jugadores
+                        .Where(p => p.posicion == (Posicion)posicion)
+                        .ToList();
+        }
+
+        public IEnumerable<Jugador> SearchJugadores(string nombre)
+
+          {
+            return _appContext.Jugadores
+                        .Where(p => p.nombre.Contains(nombre));
+                        
+        }
     }
 }

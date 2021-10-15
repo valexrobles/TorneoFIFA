@@ -18,16 +18,16 @@
         </tr>
         <tr>
         <th scope="col">Municipio</th>
-        @if (Model.estadio.municipio == null)
-        {
-            <td>
-                <a class="btn btn-primary" asp-page="./AddMunicipio" asp-route-id="@Model.estadio.idEstadio">Asignar Municipio</a>
-            </td>
-        }
-        else
-        {
-            <td>@Model.estadio.municipio.Nombre</td>
-        }
-    </tr>
+            @if (Model.estadio.municipio == null)
+            {
+                <td>
+                    <a class="btn btn-primary" asp-page="./AddMunicipio" asp-route-id="@Model.estadio.idEstadio">Asignar Municipio</a>
+                </td>
+            }
+            else
+            {
+                <td>@Model.estadio.municipio.Nombre</td>
+            }
+        </tr>
 </table>
 <a class="btn btn-primary" asp-page="./Index">Volver</a>

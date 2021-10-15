@@ -7,7 +7,8 @@ namespace TorneoDeFutbol.App.Dominio
     {
     [Key]
      public int idParticipante { get;set; }
-     [Display(Name = "Número Identificación Personal")]
+     [Display(Name = "Número de Identificación Personal")]
+     [StringLength(10)]
      public string numDocumento { get;set; }
      [Display(Name = "Nombres")]
      public string nombre { get;set; }
@@ -16,6 +17,7 @@ namespace TorneoDeFutbol.App.Dominio
      [Display(Name = "Dirección")]
      public string direccion { get;set; }
      [Display(Name = "Número de Teléfono")]
+     [StringLength(10)]
      public string numTelefono  { get;set; }
      [Display(Name = "Ciudad")]
      public string ciudad  { get;set; }

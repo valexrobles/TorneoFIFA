@@ -98,7 +98,7 @@ namespace TorneoDeFutbol.App.Persistencia.Migrations
                     b.Property<bool>("local")
                         .HasColumnType("bit");
 
-                    b.Property<int?>("municipioId")
+                    b.Property<int?>("municipioidMunicipio")
                         .HasColumnType("int");
 
                     b.Property<string>("nombre")
@@ -118,7 +118,7 @@ namespace TorneoDeFutbol.App.Persistencia.Migrations
 
                     b.HasIndex("jugadoridParticipante");
 
-                    b.HasIndex("municipioId");
+                    b.HasIndex("municipioidMunicipio");
 
                     b.HasIndex("registroidRegistro");
 
@@ -138,7 +138,7 @@ namespace TorneoDeFutbol.App.Persistencia.Migrations
                     b.Property<string>("direccion")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int?>("municipioId")
+                    b.Property<int?>("municipioidMunicipio")
                         .HasColumnType("int");
 
                     b.Property<string>("nombre")
@@ -147,14 +147,14 @@ namespace TorneoDeFutbol.App.Persistencia.Migrations
 
                     b.HasKey("idEstadio");
 
-                    b.HasIndex("municipioId");
+                    b.HasIndex("municipioidMunicipio");
 
                     b.ToTable("Estadios");
                 });
 
             modelBuilder.Entity("TorneoDeFutbol.App.Dominio.Municipio", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<int>("idMunicipio")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .UseIdentityColumn();
@@ -162,7 +162,7 @@ namespace TorneoDeFutbol.App.Persistencia.Migrations
                     b.Property<string>("Nombre")
                         .HasColumnType("nvarchar(max)");
 
-                    b.HasKey("Id");
+                    b.HasKey("idMunicipio");
 
                     b.ToTable("Municipios");
                 });
@@ -197,10 +197,12 @@ namespace TorneoDeFutbol.App.Persistencia.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("numDocumento")
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(10)
+                        .HasColumnType("nvarchar(10)");
 
                     b.Property<string>("numTelefono")
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(10)
+                        .HasColumnType("nvarchar(10)");
 
                     b.HasKey("idParticipante");
 
@@ -370,7 +372,7 @@ namespace TorneoDeFutbol.App.Persistencia.Migrations
 
                     b.HasOne("TorneoDeFutbol.App.Dominio.Municipio", "municipio")
                         .WithMany()
-                        .HasForeignKey("municipioId");
+                        .HasForeignKey("municipioidMunicipio");
 
                     b.HasOne("TorneoDeFutbol.App.Dominio.Registro", "registro")
                         .WithMany()
@@ -391,7 +393,7 @@ namespace TorneoDeFutbol.App.Persistencia.Migrations
                 {
                     b.HasOne("TorneoDeFutbol.App.Dominio.Municipio", "municipio")
                         .WithMany()
-                        .HasForeignKey("municipioId");
+                        .HasForeignKey("municipioidMunicipio");
 
                     b.Navigation("municipio");
                 });

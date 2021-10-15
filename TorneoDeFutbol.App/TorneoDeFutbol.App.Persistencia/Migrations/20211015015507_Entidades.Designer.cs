@@ -10,8 +10,8 @@ using TorneoDeFutbol.App.Persistencia;
 namespace TorneoDeFutbol.App.Persistencia.Migrations
 {
     [DbContext(typeof(AppContext))]
-    [Migration("20211013213317_Inicial")]
-    partial class Inicial
+    [Migration("20211015015507_Entidades")]
+    partial class Entidades
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -144,6 +144,7 @@ namespace TorneoDeFutbol.App.Persistencia.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("nombre")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("idEstadio");

@@ -1,4 +1,6 @@
+using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
+using System.Linq;
 using TorneoDeFutbol.App.Dominio;
 
 namespace TorneoDeFutbol.App.Persistencia
@@ -23,7 +25,7 @@ namespace TorneoDeFutbol.App.Persistencia
          }
 
 
-         public void DeleteEstadio(int idEstadio)
+        void IRepositorioEstadio.DeleteEstadio(int idEstadio)
         {
             var estadioEncontrado = _appContext.Estadios.Find(idEstadio);
             if (estadioEncontrado == null)
@@ -33,18 +35,34 @@ namespace TorneoDeFutbol.App.Persistencia
          }
 
 
-         public Estadio GetEstadio(int idEstadio)
+        Estadio IRepositorioEstadio.GetEstadio(int Id_Estadio)
         {
-            return _appContext.Estadios.Find(idEstadio);
+            var estadio = _appContext.Estadios
+                .Where(e => e.idEstadio == Id_Estadio)
+                .Include(e => e.municipio)
+                .FirstOrDefault();
+            return estadio;
         }
 
-
-        Municipio IRepositorioEstadio.AsignarMunicipio(int idMunicipio, int idEstadio)
+        Estadio IRepositorioEstadio.UpdateEstadio(Estadio estadio)
         {
-            var estadioEncontrado = _appContext.Estadios.Find(idEstadio);
+            var estadioEncontrado=_appContext.Estadios.Find(estadio.idEstadio);
+            if (estadioEncontrado!=null)
+            {
+                estadioEncontrado.nombre=estadio.nombre;
+                estadioEncontrado.direccion=estadio.direccion;
+                estadioEncontrado.capacidadEspectadores=estadio.capacidadEspectadores;
+
+                _appContext.SaveChanges();
+            }
+            return estadioEncontrado;
+        }
+        Municipio IRepositorioEstadio.AsignarMunicipio(int Id_Estadio, int Id_Municipio)
+        {
+            var estadioEncontrado = _appContext.Estadios.Find(Id_Estadio);
             if (estadioEncontrado != null)
             {
-                var municipioEncontrado = _appContext.Municipios.Find(idMunicipio);
+                var municipioEncontrado = _appContext.Municipios.Find(Id_Municipio);
                 if (municipioEncontrado != null)
                 {
                     estadioEncontrado.municipio = municipioEncontrado;

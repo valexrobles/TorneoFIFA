@@ -90,7 +90,7 @@ namespace TorneoDeFutbol.App.Persistencia.Migrations
                 {
                     idEstadio = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    nombre = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    nombre = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     direccion = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     capacidadEspectadores = table.Column<int>(type: "int", nullable: false),
                     municipioId = table.Column<int>(type: "int", nullable: true)

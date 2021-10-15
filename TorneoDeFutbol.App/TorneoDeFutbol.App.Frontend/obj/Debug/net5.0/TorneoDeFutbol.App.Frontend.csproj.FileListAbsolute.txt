@@ -316,3 +316,6 @@ C:\MisionTic2022-Ciclo3\TorneoFutbolDepartamental\TorneoFIFA\TorneoDeFutbol.App\
 C:\MisionTic2022-Ciclo3\TorneoFutbolDepartamental\TorneoFIFA\TorneoDeFutbol.App\TorneoDeFutbol.App.Frontend\obj\Debug\net5.0\Razor\Pages\Directores_Tecnicos\Details.cshtml.g.cs
 C:\MisionTic2022-Ciclo3\TorneoFutbolDepartamental\TorneoFIFA\TorneoDeFutbol.App\TorneoDeFutbol.App.Frontend\obj\Debug\net5.0\Razor\Pages\Directores_Tecnicos\Index.cshtml.g.cs
 C:\MisionTic2022-Ciclo3\TorneoFutbolDepartamental\TorneoFIFA\TorneoDeFutbol.App\TorneoDeFutbol.App.Frontend\obj\Debug\net5.0\Razor\Pages\Directores_Tecnicos\Edit.cshtml.g.cs
+C:\MisionTic2022-Ciclo3\TorneoFutbolDepartamental\TorneoFIFA\TorneoDeFutbol.App\TorneoDeFutbol.App.Frontend\obj\Debug\net5.0\Razor\Pages\Estadios\AddMunicipio.cshtml.g.cs
+C:\MisionTic2022-Ciclo3\TorneoFutbolDepartamental\TorneoFIFA\TorneoDeFutbol.App\TorneoDeFutbol.App.Frontend\obj\Debug\net5.0\Razor\Pages\Estadios\Create.cshtml.g.cs
+C:\MisionTic2022-Ciclo3\TorneoFutbolDepartamental\TorneoFIFA\TorneoDeFutbol.App\TorneoDeFutbol.App.Frontend\obj\Debug\net5.0\Razor\Pages\Estadios\Edit.cshtml.g.cs

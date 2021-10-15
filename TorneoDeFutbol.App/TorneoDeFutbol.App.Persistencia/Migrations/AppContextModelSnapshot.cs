@@ -142,6 +142,7 @@ namespace TorneoDeFutbol.App.Persistencia.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("nombre")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("idEstadio");

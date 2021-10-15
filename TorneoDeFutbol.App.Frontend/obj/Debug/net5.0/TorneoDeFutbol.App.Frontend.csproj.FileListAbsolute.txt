@@ -329,3 +329,4 @@ C:\Programación\retos\TorneoFIFA\TorneoDeFutbol.App\TorneoDeFutbol.App.Frontend
 C:\Programación\retos\TorneoFIFA\TorneoDeFutbol.App\TorneoDeFutbol.App.Frontend\obj\Debug\net5.0\Razor\Pages\Municipios\Create.cshtml.g.cs
 C:\Programación\retos\TorneoFIFA\TorneoDeFutbol.App\TorneoDeFutbol.App.Frontend\obj\Debug\net5.0\Razor\Pages\Municipios\Edit.cshtml.g.cs
 C:\Programación\retos\TorneoFIFA\TorneoDeFutbol.App\TorneoDeFutbol.App.Frontend\obj\Debug\net5.0\Razor\Pages\Equipos\AddJugador.cshtml.g.cs
+C:\Programación\retos\TorneoFIFA\TorneoDeFutbol.App\TorneoDeFutbol.App.Frontend\obj\Debug\net5.0\Razor\Pages\Arbitros\AddColegio.cshtml.g.cs

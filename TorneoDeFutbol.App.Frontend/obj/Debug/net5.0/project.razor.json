@@ -15624,6 +15624,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Programación\\retos\\TorneoFIFA\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Frontend\\Pages\\Arbitros\\AddColegio.cshtml",
+      "TargetPath": "Pages\\Arbitros\\AddColegio.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Programación\\retos\\TorneoFIFA\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Frontend\\Pages\\Estadios\\Details.cshtml",
       "TargetPath": "Pages\\Estadios\\Details.cshtml",
       "FileKind": "mvc"

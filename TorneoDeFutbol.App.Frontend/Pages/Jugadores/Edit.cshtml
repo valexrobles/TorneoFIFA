@@ -31,6 +31,11 @@
         <label asp-for="jugador.direccion"></label>
         <input asp-for="jugador.direccion" class="form-control">
     </div>
+
+    <div class = "form-group">
+        <label asp-for = "jugador.posicion"></label>
+        <select asp-for = "jugador.posicion" asp-items = "Html.GetEnumSelectList<Posicion>()" class = "form-control"></select>
+    </div>
    
     <button type="submit" class="btn btn-primary btn-block">Actualizar jugador</button>
 </form>

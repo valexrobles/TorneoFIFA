@@ -9,14 +9,14 @@ namespace TorneoDeFutbol.App.Persistencia
         
         Datos_Partido AddDatosPartido (Datos_Partido datosPartido);
         IEnumerable<Datos_Partido> GetAllDatosPartidos();
-        void DeleteDatosPartido(int Id_DatosPartido);
-        //????Datos_Partido GetDatosPartido(int Id_DatosPartido);
-        Equipo GetEquipoVisitante (int Id_Equipo);
-        Equipo GetEquipoLocal (int Id_Equipo);
-        Arbitro AsignarArbitro (int Id_DatosPartido, int Id_Arbitro);
-        Estadio AsignarEstadio (int Id_DatosPartido, int Id_Estadio);
-        Equipo AsignarEquipoVisitante (int Id_DatosPartido, int Id_Equipo);
-        Equipo AsignarEquipoLocal (int Id_DatosPartido , int Id_Equipo);
+        void DeleteDatosPartido(int idDatosPartido);
+        Equipo GetEquipoVisitante (int idEquipo);
+        Equipo GetEquipoLocal (int idEquipo);
+        Arbitro AsignarArbitro (int idDatosPartido, int idArbitro);
+        Estadio AsignarEstadio (int idDatosPartido, int idEstadio);
+        Equipo AsignarEquipoVisitante (int idDatosPartido, int idEquipo);
+        Equipo AsignarEquipoLocal (int idDatosPartido , int idEquipo);
+        Datos_Partido GetDatosPartido(int idDatosPartido);
 
     }
 }

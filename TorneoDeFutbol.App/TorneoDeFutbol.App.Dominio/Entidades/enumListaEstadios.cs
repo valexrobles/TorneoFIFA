@@ -1,0 +1,1 @@
+public enum enumListaEstadios{Palo_grande, Atanasio_Girardot, El_campin, Pascual_Guerrero, Camp_Nou}

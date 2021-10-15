@@ -2,4 +2,34 @@
 @model TorneoDeFutbol.App.Frontend.Pages.DatosPartidos.IndexModel
 @{
 }
-<h1>Listado de Datos Partidos</h1>
+
+<a class="btn btn-primary" asp-page="./Create">Crear Planilla Partido</a>
+
+<h1>Listado de Partidos</h1>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th scope="col">Código</th>
+            <th scope="col">Fecha de realización</th>
+            <th scope="col">Local</th>
+            <th scope="col">Visitante</th>
+            <th scope = "col">Marcador</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var partido in Model.datosPartidos)
+        {
+            <tr>
+                <td>@partido.idDatosPartido</td>
+                <td>@partido.fecha</td>
+                <td>@partido.itemEquipoL</td>
+                <td>@partido.itemEquipoV</td>
+                <td>@partido.golesL : @partido.golesV</td>
+                <td>
+                    <a class="btn btn-secondary" asp-page="./Details" asp-route-id="@partido.idDatosPartido">Detalle</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

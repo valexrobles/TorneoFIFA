@@ -1,4 +1,45 @@
 ﻿@page
-@model TorneoDeFutbol.App.Frontend.pages.Directores.DetailsModel
+@model TorneoDeFutbol.App.Frontend.Pages.Directores.DetailsModel
 @{
 }
+
+<h1>Detalle del Director Técnico</h1>
+<table class="table table-striped">
+ 
+        <tr>
+            <th scope="col">Nombres</th>
+            <td>@Model.director.nombre</td>
+        </tr>
+        <tr>
+            <th scope="col">Apellidos</th> 
+            <td>@Model.director.apellido</td>   
+        </tr>
+        <tr>
+            <th scope="col">Fecha de Nacimiento</th>
+            <td>@Model.director.fechaNacimiento</td>
+        </tr>
+        <tr>
+            <th scope = "col">Género</th>
+            <td>@Model.director.genero</td>
+        </tr>
+        <tr>
+            <th scope = "col">Dirección</th>
+            <td>@Model.director.direccion</td>
+        </tr> 
+        <tr>
+            <th scope = "col">Ciudad</th>
+            <td>@Model.director.ciudad</td>
+        </tr> 
+        <tr>
+             <th scope="col">Teléfono</th>
+             <td>@Model.director.numTelefono</td>   
+        </tr>
+        <tr>
+             <th scope="col">Años de Experiencia</th>
+             <td>@Model.director.aniosExperiencia</td>   
+        </tr>
+        
+    </table>
+
+            
+    <a class="btn btn-secondary" asp-page="./Index">Volver</a>

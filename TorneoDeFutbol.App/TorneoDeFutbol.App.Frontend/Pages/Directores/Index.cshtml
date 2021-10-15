@@ -2,4 +2,35 @@
 @model TorneoDeFutbol.App.Frontend.Pages.Directores.IndexModel
 @{
 }
-<h1>Listado de Directores</h1>
+
+<a class="btn btn-primary" asp-page="./Create">Crear DT</a>
+
+<h1>Listado de Directores Técnicos</h1>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th scope="col">Nombres</th>
+            <th scope="col">Apellidos</th>
+            <th scope="col">Teléfono</th>
+            <th scope = "col">Número Documento</th>
+            <th scope="col">Acciones</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var director in Model.directores)
+        {
+            <tr>
+                <td>@director.nombre</td>
+                <td>@director.apellido</td>
+                <td>@director.numTelefono</td>
+                <td>@director.numDocumento</td>
+              
+                <td>
+                    <a class="btn btn-secondary" asp-page="./Details" asp-route-id="@director.idParticipante">Detalle</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

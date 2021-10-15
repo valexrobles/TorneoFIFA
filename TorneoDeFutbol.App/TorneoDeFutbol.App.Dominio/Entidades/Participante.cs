@@ -9,6 +9,7 @@ namespace TorneoDeFutbol.App.Dominio
      public int idParticipante { get;set; }
      [Display(Name = "Número Identificación Personal")]
      public string numDocumento { get;set; }
+     [Display(Name = "Nombres")]
      public string nombre { get;set; }
      [Display(Name = "Apellidos")]
      public string apellido { get;set; }     

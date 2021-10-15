@@ -41,20 +41,14 @@ namespace TorneoDeFutbol.App.Persistencia.Migrations
                         .HasColumnType("int")
                         .UseIdentityColumn();
 
-                    b.Property<int?>("arbitroidParticipante")
+                    b.Property<int>("amarillasLocal")
                         .HasColumnType("int");
 
-                    b.Property<bool>("equipoLocal")
-                        .HasColumnType("bit");
-
-                    b.Property<bool>("equipoVisitante")
-                        .HasColumnType("bit");
-
-                    b.Property<int?>("equipoidEquipo")
+                    b.Property<int>("amarillasVisitante")
                         .HasColumnType("int");
 
-                    b.Property<int?>("estadioidEstadio")
-                        .HasColumnType("int");
+                    b.Property<DateTime>("fecha")
+                        .HasColumnType("datetime2");
 
                     b.Property<int>("golesL")
                         .HasColumnType("int");
@@ -62,25 +56,46 @@ namespace TorneoDeFutbol.App.Persistencia.Migrations
                     b.Property<int>("golesV")
                         .HasColumnType("int");
 
-                    b.Property<int>("marcador")
+                    b.Property<int>("itemEquipoL")
                         .HasColumnType("int");
 
-                    b.Property<int>("tarjetasAmarillas")
+                    b.Property<int>("itemEquipoV")
                         .HasColumnType("int");
 
-                    b.Property<int>("tarjetasRojas")
+                    b.Property<int>("itemEstadio")
                         .HasColumnType("int");
 
-                    b.Property<int>("tiempo")
+                    b.Property<int>("itemMunicipio")
+                        .HasColumnType("int");
+
+                    b.Property<string>("marcador")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("minutosJugados")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("objArbitroidParticipante")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("objEquipoidEquipo")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("objEstadioidEstadio")
+                        .HasColumnType("int");
+
+                    b.Property<int>("rojasLocal")
+                        .HasColumnType("int");
+
+                    b.Property<int>("rojasVisitante")
                         .HasColumnType("int");
 
                     b.HasKey("idDatosPartido");
 
-                    b.HasIndex("arbitroidParticipante");
+                    b.HasIndex("objArbitroidParticipante");
 
-                    b.HasIndex("equipoidEquipo");
+                    b.HasIndex("objEquipoidEquipo");
 
-                    b.HasIndex("estadioidEstadio");
+                    b.HasIndex("objEstadioidEstadio");
 
                     b.ToTable("DatosPartidos");
                 });
@@ -92,7 +107,16 @@ namespace TorneoDeFutbol.App.Persistencia.Migrations
                         .HasColumnType("int")
                         .UseIdentityColumn();
 
+                    b.Property<int?>("Datos_PartidoidDatosPartido")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("Datos_PartidoidDatosPartido1")
+                        .HasColumnType("int");
+
                     b.Property<int?>("directorTecnicoidParticipante")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("equipoidEquipo")
                         .HasColumnType("int");
 
                     b.Property<int?>("estadioidEstadio")
@@ -118,7 +142,13 @@ namespace TorneoDeFutbol.App.Persistencia.Migrations
 
                     b.HasKey("idEquipo");
 
+                    b.HasIndex("Datos_PartidoidDatosPartido");
+
+                    b.HasIndex("Datos_PartidoidDatosPartido1");
+
                     b.HasIndex("directorTecnicoidParticipante");
+
+                    b.HasIndex("equipoidEquipo");
 
                     b.HasIndex("estadioidEstadio");
 
@@ -138,6 +168,9 @@ namespace TorneoDeFutbol.App.Persistencia.Migrations
                         .HasColumnType("int")
                         .UseIdentityColumn();
 
+                    b.Property<int?>("Datos_PartidoidDatosPartido")
+                        .HasColumnType("int");
+
                     b.Property<int>("capacidadEspectadores")
                         .HasColumnType("int");
 
@@ -151,6 +184,8 @@ namespace TorneoDeFutbol.App.Persistencia.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("idEstadio");
+
+                    b.HasIndex("Datos_PartidoidDatosPartido");
 
                     b.HasIndex("municipioidMunicipio");
 
@@ -340,30 +375,42 @@ namespace TorneoDeFutbol.App.Persistencia.Migrations
 
             modelBuilder.Entity("TorneoDeFutbol.App.Dominio.Datos_Partido", b =>
                 {
-                    b.HasOne("TorneoDeFutbol.App.Dominio.Arbitro", "arbitro")
+                    b.HasOne("TorneoDeFutbol.App.Dominio.Arbitro", "objArbitro")
                         .WithMany()
-                        .HasForeignKey("arbitroidParticipante");
+                        .HasForeignKey("objArbitroidParticipante");
 
-                    b.HasOne("TorneoDeFutbol.App.Dominio.Equipo", "equipo")
+                    b.HasOne("TorneoDeFutbol.App.Dominio.Equipo", "objEquipo")
                         .WithMany()
-                        .HasForeignKey("equipoidEquipo");
+                        .HasForeignKey("objEquipoidEquipo");
 
-                    b.HasOne("TorneoDeFutbol.App.Dominio.Estadio", "estadio")
+                    b.HasOne("TorneoDeFutbol.App.Dominio.Estadio", "objEstadio")
                         .WithMany()
-                        .HasForeignKey("estadioidEstadio");
+                        .HasForeignKey("objEstadioidEstadio");
 
-                    b.Navigation("arbitro");
+                    b.Navigation("objArbitro");
 
-                    b.Navigation("equipo");
+                    b.Navigation("objEquipo");
 
-                    b.Navigation("estadio");
+                    b.Navigation("objEstadio");
                 });
 
             modelBuilder.Entity("TorneoDeFutbol.App.Dominio.Equipo", b =>
                 {
+                    b.HasOne("TorneoDeFutbol.App.Dominio.Datos_Partido", null)
+                        .WithMany("listaEquiposL")
+                        .HasForeignKey("Datos_PartidoidDatosPartido");
+
+                    b.HasOne("TorneoDeFutbol.App.Dominio.Datos_Partido", null)
+                        .WithMany("listaEquiposV")
+                        .HasForeignKey("Datos_PartidoidDatosPartido1");
+
                     b.HasOne("TorneoDeFutbol.App.Dominio.Director_Tecnico", "directorTecnico")
                         .WithMany()
                         .HasForeignKey("directorTecnicoidParticipante");
+
+                    b.HasOne("TorneoDeFutbol.App.Dominio.Equipo", "equipo")
+                        .WithMany()
+                        .HasForeignKey("equipoidEquipo");
 
                     b.HasOne("TorneoDeFutbol.App.Dominio.Estadio", "estadio")
                         .WithMany()
@@ -383,6 +430,8 @@ namespace TorneoDeFutbol.App.Persistencia.Migrations
 
                     b.Navigation("directorTecnico");
 
+                    b.Navigation("equipo");
+
                     b.Navigation("estadio");
 
                     b.Navigation("jugador");
@@ -394,6 +443,10 @@ namespace TorneoDeFutbol.App.Persistencia.Migrations
 
             modelBuilder.Entity("TorneoDeFutbol.App.Dominio.Estadio", b =>
                 {
+                    b.HasOne("TorneoDeFutbol.App.Dominio.Datos_Partido", null)
+                        .WithMany("listaEstadios")
+                        .HasForeignKey("Datos_PartidoidDatosPartido");
+
                     b.HasOne("TorneoDeFutbol.App.Dominio.Municipio", "municipio")
                         .WithMany()
                         .HasForeignKey("municipioidMunicipio");
@@ -435,6 +488,15 @@ namespace TorneoDeFutbol.App.Persistencia.Migrations
                         .HasForeignKey("colegioidColegio");
 
                     b.Navigation("colegio");
+                });
+
+            modelBuilder.Entity("TorneoDeFutbol.App.Dominio.Datos_Partido", b =>
+                {
+                    b.Navigation("listaEquiposL");
+
+                    b.Navigation("listaEquiposV");
+
+                    b.Navigation("listaEstadios");
                 });
 #pragma warning restore 612, 618
         }

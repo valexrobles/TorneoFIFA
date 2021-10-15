@@ -13,6 +13,7 @@ namespace TorneoDeFutbol.App.Dominio
         public Registro registro { get;set; }
         public Director_Tecnico directorTecnico { get;set; }
         public bool local { get;set; }
-        public bool visitante { get;set; }     
+        public bool visitante { get;set; } 
+        public Equipo equipo { get;set;}    
         }
 }

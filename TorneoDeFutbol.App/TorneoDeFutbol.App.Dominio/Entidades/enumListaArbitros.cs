@@ -1,0 +1,1 @@
+public enum enumListaArbitros{Oscar_Julian_Ruiz, Jesus_Diaz, Humberto_Clavijo, Wilmar_Roldan}

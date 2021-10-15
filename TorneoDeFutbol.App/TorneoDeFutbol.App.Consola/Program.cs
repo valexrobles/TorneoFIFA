@@ -75,7 +75,7 @@ namespace TorneoDeFutbol.App.Consola
             //Método ELIMINAR Participante**********************************************************
             private static void DeleteParticipante()
             {
-                _repoParticipante.DeleteParticipante(8);
+                _repoParticipante.DeleteParticipante(10);
             }
 
             //Método ELIMINAR Jugador***************************************************************
@@ -185,16 +185,16 @@ namespace TorneoDeFutbol.App.Consola
             {
             var arbitro = new Arbitro
             {
-                numDocumento="10303675272",
-                nombre = "Oscar Julian",
-                apellido = "Ruiz",
-                direccion = "Bicentenario",
-                numTelefono = "343536363698765",
-                ciudad = "Manizales",
-                genero = Genero.PanSexual,
+                numDocumento="34567892",
+                nombre = "Wilmar",
+                apellido = "Roldan",
+                direccion = "Avenida Circunvalar 102",
+                numTelefono = "300660700",
+                ciudad = "Ibague",
+                genero = Genero.NoBinario,
                 arbitroFIFA = true,
-                fechaNacimiento = Convert.ToDateTime("24/01/1953"),
-                fechaAfiliacionFIFA = Convert.ToDateTime("18/12/1994")
+                fechaNacimiento = Convert.ToDateTime("25/04/1976"),
+                fechaAfiliacionFIFA = Convert.ToDateTime("31/08/2018")
                 
             };
              _repoArbitro.AddArbitro(arbitro);

@@ -2,4 +2,44 @@
 @model TorneoDeFutbol.App.Frontend.Pages.Arbitros.IndexModel
 @{
 }
+
+<a class="btn btn-primary" asp-page="./Create">Crear Arbitro</a>
+
 <h1>Listado de Arbitros</h1>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th scope="col">Nombres</th>
+            <th scope="col">Apellidos</th>
+            <th scope="col">Direccion</th>
+            <th scope="col">Numero Telefono</th>
+             <th scope="col">Arbitro FIFA</th>
+             <th scope="col">Fecha de Afiliacion FIFA</th>
+             <th scope="col">Colegio</th>
+            <th scope="col">Acciones</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var arbitro in Model.arbitros)
+        {
+            <tr>
+                <td>@arbitro.nombre</td>
+                <td>@arbitro.apellido</td>
+                <td>@arbitro.numTelefono</td>
+                <td>@arbitro.direccion</td>
+                <td>@arbitro.arbitroFIFA</td>
+                <td>@arbitro.fechaAfiliacionFIFA </td>
+                 <td>@arbitro.colegio</td>
+                
+                <td>
+                    <a class="btn btn-primary" asp-page="./Details" asp-route-idParticipante="@arbitro.idParticipante">Detalle</a>
+                    
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+             
+

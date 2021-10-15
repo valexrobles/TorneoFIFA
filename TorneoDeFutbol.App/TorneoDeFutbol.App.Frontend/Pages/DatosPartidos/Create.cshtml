@@ -2,3 +2,63 @@
 @model TorneoDeFutbol.App.Frontend.Pages.DatosPartidos.CreateModel
 @{
 }
+
+<h1>Nueva Planilla digital Partido</h1>
+<form method = "post">
+    
+    <div class = "form-group">
+        <label asp-for = "datosPartido.fecha"></label>
+        <input asp-for = "datosPartido.fecha" class = "form-control">
+    </div>
+    <div class = "form-group">
+        <label asp-for = "datosPartido.itemMunicipio"></label>
+        <select asp-for = "datosPartido.itemMunicipio" asp-items = "Html.GetEnumSelectList<enumListaMunicipios>()" class = "form-control"></select>
+    </div>
+    <div class = "form-group">
+        <label asp-for = "datosPartido.itemEstadio"></label>
+        <select asp-for = "datosPartido.itemEstadio" asp-items = "Html.GetEnumSelectList<enumListaEstadios>()" class = "form-control"></select>
+    </div>
+    <div class = "form-group">
+        <label asp-for = "datosPartido.itemEquipoL"></label>
+        <select asp-for = "datosPartido.itemEquipoL" asp-items = "Html.GetEnumSelectList<enumListaEquiposL>()" class = "form-control"></select>
+    </div>
+
+    <div class = "form-group">
+        <label asp-for = "datosPartido.itemEquipoV"></label>
+        <select asp-for = "datosPartido.itemEquipoV" asp-items = "Html.GetEnumSelectList<enumListaEquiposV>()" class = "form-control"></select>
+    </div>
+
+    <div class = "form-group">
+        <label asp-for = "datosPartido.golesL"></label>
+        <input asp-for = "datosPartido.golesL" class = "form-control">
+    </div>
+    <div class = "form-group">
+        <label asp-for = "datosPartido.golesV"></label>
+        <input asp-for = "datosPartido.golesV" class = "form-control">
+    </div>
+    <div class = "form-group">
+        <label asp-for = "datosPartido.amarillasLocal"></label>
+        <input asp-for = "datosPartido.amarillasLocal" class = "form-control">
+    </div>
+    <div class = "form-group">
+        <label asp-for = "datosPartido.rojasLocal"></label>
+        <input asp-for = "datosPartido.rojasLocal" class = "form-control">
+    </div>
+    <div class = "form-group">
+        <label asp-for = "datosPartido.amarillasVisitante"></label>
+        <input asp-for = "datosPartido.amarillasVisitante" class = "form-control">
+    </div>
+    <div class = "form-group">
+        <label asp-for = "datosPartido.rojasVisitante"></label>
+        <input asp-for = "datosPartido.rojasVisitante" class = "form-control">
+    </div>
+    <div class = "form-group">
+        <label asp-for = "datosPartido.minutosJugados"></label>
+        <input asp-for = "datosPartido.minutosJugados" class = "form-control">
+    </div>
+    
+    <button Type = "Submit" class = "btn btn-primary btn-lg float-right">Crear Documento
+    </button>
+    
+</form>
+<a class = "btn btn-warning btn-lg float-left" asp-page = "./Index">Volver</a>

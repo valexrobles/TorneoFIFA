@@ -15689,6 +15689,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\caliv\\OneDrive\\Escritorio\\VersionesMinTic\\Cycle3\\5_10_TorneoFutbol\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Frontend\\Pages\\DatosPartidos\\AddArbitro.cshtml",
+      "TargetPath": "Pages\\DatosPartidos\\AddArbitro.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\caliv\\OneDrive\\Escritorio\\VersionesMinTic\\Cycle3\\5_10_TorneoFutbol\\TorneoDeFutbol.App\\TorneoDeFutbol.App.Frontend\\Pages\\Jugadores\\Index.cshtml",
       "TargetPath": "Pages\\Jugadores\\Index.cshtml",
       "FileKind": "mvc"

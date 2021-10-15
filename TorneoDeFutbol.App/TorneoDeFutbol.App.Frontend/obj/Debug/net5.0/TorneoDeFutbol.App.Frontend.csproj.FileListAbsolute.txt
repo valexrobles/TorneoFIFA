@@ -312,3 +312,4 @@ C:\Users\caliv\OneDrive\Escritorio\VersionesMinTic\Cycle3\5_10_TorneoFutbol\Torn
 C:\Users\caliv\OneDrive\Escritorio\VersionesMinTic\Cycle3\5_10_TorneoFutbol\TorneoDeFutbol.App\TorneoDeFutbol.App.Frontend\obj\Debug\net5.0\TorneoDeFutbol.App.Frontend.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\caliv\OneDrive\Escritorio\VersionesMinTic\Cycle3\5_10_TorneoFutbol\TorneoDeFutbol.App\TorneoDeFutbol.App.Frontend\obj\Debug\net5.0\Razor\Pages\DatosPartidos\Create.cshtml.g.cs
 C:\Users\caliv\OneDrive\Escritorio\VersionesMinTic\Cycle3\5_10_TorneoFutbol\TorneoDeFutbol.App\TorneoDeFutbol.App.Frontend\obj\Debug\net5.0\Razor\Pages\Directores\Create.cshtml.g.cs
+C:\Users\caliv\OneDrive\Escritorio\VersionesMinTic\Cycle3\5_10_TorneoFutbol\TorneoDeFutbol.App\TorneoDeFutbol.App.Frontend\obj\Debug\net5.0\Razor\Pages\DatosPartidos\AddArbitro.cshtml.g.cs

@@ -1,3 +1,5 @@
+using System.Linq;
+using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 using TorneoDeFutbol.App.Dominio;
 
@@ -23,9 +25,9 @@ namespace TorneoDeFutbol.App.Persistencia
          }
 
 
-        public void DeleteDatosPartido(int Id_DatosPartido)
+        void IRepositorioDatosPartido.DeleteDatosPartido(int idDatosPartido)
         {
-            var datosPartidoEncontrado = _appContext.DatosPartidos.Find(Id_DatosPartido);
+            var datosPartidoEncontrado = _appContext.DatosPartidos.Find(idDatosPartido);
             if (datosPartidoEncontrado == null)
                 return;
             _appContext.DatosPartidos.Remove(datosPartidoEncontrado);
@@ -37,15 +39,15 @@ namespace TorneoDeFutbol.App.Persistencia
             return _appContext.DatosPartido.Find(Id_DatosPartido);
         }*/
         
-        Arbitro IRepositorioDatosPartido.AsignarArbitro(int idArbitro, int idDatosPartido)
+        Arbitro IRepositorioDatosPartido.AsignarArbitro(int idParticipante, int idDatosPartido)
         {
             var datosPartidoEncontrado = _appContext.DatosPartidos.Find(idDatosPartido);
             if (datosPartidoEncontrado != null)
             {
-                var arbitroEncontrado = _appContext.Arbitros.Find(idArbitro);
+                var arbitroEncontrado = _appContext.Arbitros.Find(idParticipante);
                 if (arbitroEncontrado != null)
                 {
-                    datosPartidoEncontrado.arbitro = arbitroEncontrado;
+                    datosPartidoEncontrado.objArbitro = arbitroEncontrado;
                     _appContext.SaveChanges();
                 }
                 return arbitroEncontrado;
@@ -61,7 +63,7 @@ namespace TorneoDeFutbol.App.Persistencia
                 var estadioEncontrado = _appContext.Estadios.Find(idEstadio);
                 if (estadioEncontrado != null)
                 {
-                    datosPartidoEncontrado.estadio = estadioEncontrado;
+                    datosPartidoEncontrado.objEstadio = estadioEncontrado;
                     _appContext.SaveChanges();
                 }
                 return estadioEncontrado;
@@ -77,7 +79,7 @@ namespace TorneoDeFutbol.App.Persistencia
                 var equipoEncontrado = _appContext.Equipos.Find(idEquipo);
                 if (equipoEncontrado != null)
                 {
-                    datosPartidoEncontrado.equipo = equipoEncontrado;
+                    datosPartidoEncontrado.objEquipo = equipoEncontrado;
                     _appContext.SaveChanges();
                 }
                 return equipoEncontrado;
@@ -93,7 +95,7 @@ namespace TorneoDeFutbol.App.Persistencia
                 var equipoEncontrado = _appContext.Equipos.Find(idEquipo);
                 if (equipoEncontrado != null)
                 {
-                    datosPartidoEncontrado.equipo = equipoEncontrado;
+                    datosPartidoEncontrado.objEquipo = equipoEncontrado;
                     _appContext.SaveChanges();
                 }
                 return equipoEncontrado;
@@ -102,15 +104,22 @@ namespace TorneoDeFutbol.App.Persistencia
         }
 
         //Metodos con implementacion por descarte!!!!
-        Equipo IRepositorioDatosPartido.GetEquipoVisitante (int idEquipo)
+        Equipo IRepositorioDatosPartido.GetEquipoVisitante (int idEquipoVisitante)
         {
-           Equipo equipoVisitante = new Equipo();
-           return equipoVisitante; 
+           return _appContext.Equipos.Where(x=>x.idEquipo == idEquipoVisitante).FirstOrDefault();
         }
-        Equipo IRepositorioDatosPartido.GetEquipoLocal (int idEquipo)
+        Equipo IRepositorioDatosPartido.GetEquipoLocal (int idEquipoLocal)
         {
-            Equipo equipoLocal = new Equipo();
-            return equipoLocal;
+            return _appContext.Equipos.Where(x=>x.idEquipo == idEquipoLocal).FirstOrDefault();
+        }
+
+        Datos_Partido IRepositorioDatosPartido.GetDatosPartido(int idDatosPartido)
+        {
+            var datosPartido = _appContext.DatosPartidos
+                .Where(dp => dp.idDatosPartido == idDatosPartido)
+                .Include(dp => dp.objArbitro)
+                .FirstOrDefault();
+            return datosPartido;
         }
 
     }

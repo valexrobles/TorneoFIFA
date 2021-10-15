@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Linq;
 using TorneoDeFutbol.App.Dominio;
 
 namespace TorneoDeFutbol.App.Persistencia
@@ -46,19 +47,21 @@ namespace TorneoDeFutbol.App.Persistencia
         }
 
          //Método para Eliminar Director Técnico
-        public void DeleteDirectorTecnico(int Id_DirectorTecnico)
+        void IRepositorioDirector.DeleteDirectorTecnico(int Id_DirectorTecnico)
         {
             var directorTecnicoEncontrado = _appContext.DirectoresTecnicos.Find(Id_DirectorTecnico);
             if (directorTecnicoEncontrado == null)
-                return;
-            _appContext.DirectoresTecnicos.Remove(directorTecnicoEncontrado);
-            _appContext.SaveChanges();
+                {return;}
+            else{
+                 _appContext.DirectoresTecnicos.Remove(directorTecnicoEncontrado);
+                _appContext.SaveChanges();
+                }
          }
 
         //Método para Obtener un Director_Técnico
-        public Director_Tecnico GetDirectorTecnico(int Id_DirectorTecnico)
+        public Director_Tecnico GetDirectorTecnico(int idDirectorTecnico)
         {
-            return _appContext.DirectoresTecnicos.Find(Id_DirectorTecnico);
+            return _appContext.DirectoresTecnicos.Where(x=>x.idParticipante == idDirectorTecnico).FirstOrDefault();
         }
                 
 

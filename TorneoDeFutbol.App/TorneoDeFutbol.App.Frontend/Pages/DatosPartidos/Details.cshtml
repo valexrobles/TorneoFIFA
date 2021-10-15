@@ -1,4 +1,75 @@
 ﻿@page
-@model TorneoDeFutbol.App.Frontend.pages.DatosPartidos.DetailsModel
+@model TorneoDeFutbol.App.Frontend.Pages.DatosPartidos.DetailsModel
 @{
 }
+
+<h1>Detalle del Partido</h1>
+<table class="table table-striped">
+ 
+        <tr>
+            <th scope="col">Código</th>
+            <td>@Model.datosPartido.idDatosPartido</td>
+        </tr>
+        <tr>
+            <th scope="col">Fecha de Realización</th> 
+            <td>@Model.datosPartido.fecha</td>   
+        </tr>
+        <tr>
+            <th scope="col">Lugar del Encuentro</th> 
+            <td>@Model.datosPartido.itemMunicipio</td>   
+        </tr>
+        <tr>
+            <th scope="col">Estadio</th> 
+            <td>@Model.datosPartido.itemEstadio</td>   
+        </tr>
+        <tr>
+        <th scope="col">Arbitro</th>
+            @if (Model.datosPartido.objArbitro == null)
+            {
+                <th>
+                    <a class="btn btn-primary" asp-page="./AddArbitro" asp-route-idParticipante="@Model.datosPartido.idDatosPartido">Asignar Arbitro</a>
+                </th>
+            }
+            else
+            {
+                <td>@Model.datosPartido.objArbitro.nombre @Model.datosPartido.objArbitro.apellido</td>
+            }
+        </tr>
+        <tr>
+            <th scope="col">Equipo Local</th> 
+            <td>@Model.datosPartido.itemEquipoL</td>   
+        </tr>
+        <tr>
+            <th scope="col">Equipo Visitante</th> 
+            <td>@Model.datosPartido.itemEquipoV</td>   
+        </tr>
+        <tr>
+            <th scope="col">Marcador</th>
+            <td>@Model.datosPartido.golesL : @Model.datosPartido.golesV</td>
+        </tr>
+        <tr>
+            <th scope = "col">Tarjetas Amarillas Local</th>
+            <td>@Model.datosPartido.amarillasLocal</td>
+        </tr>
+        <tr>
+            <th scope = "col">Tarjetas Rojas Local</th>
+            <td>@Model.datosPartido.rojasLocal</td>
+        </tr>
+        <tr>
+            <th scope = "col">Tarjetas Amarillas Visitante</th>
+            <td>@Model.datosPartido.amarillasVisitante</td>
+        </tr>
+        <tr>
+            <th scope = "col">Tarjetas Rojas Visitante</th>
+            <td>@Model.datosPartido.rojasVisitante</td>
+        </tr>
+        <tr>
+            <th scope = "col">Minutos Jugados</th>
+            <td>@Model.datosPartido.minutosJugados</td>
+        </tr> 
+    
+        
+    </table>
+
+            
+    <a class="btn btn-secondary" asp-page="./Index">Volver</a>

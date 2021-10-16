@@ -141,8 +141,8 @@ namespace TorneoDeFutbol.App.Consola
             var director = new Director_Tecnico
             {
                 numDocumento="500400300-2",
-                nombre = "Reinaldo",
-                apellido = "Rueda",
+                nombre = "Pecoso",
+                apellido = "Castro",
                 direccion = "Wall Street",
                 numTelefono = "01800-3536",
                 ciudad = "Mánchester",

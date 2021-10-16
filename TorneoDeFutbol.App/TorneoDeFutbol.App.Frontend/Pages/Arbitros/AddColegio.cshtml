@@ -1,0 +1,22 @@
+﻿@page
+@model TorneoDeFutbol.App.Fontend.Pages.Arbitros.AddColegioModel
+@{
+}
+<h1>Asignar Colegio</h1>
+<form method="post">
+    <div class="form-group">
+        <label for="idParticipante">Arbitro</label>
+        <input type="text" id="idParticipante" name="idParticipante" class="form-control" value="@Model.arbitro.idParticipante" readonly>
+    </div>
+    <div class="form-group">
+        <label for="idColegio">Colegio</label>
+        <select id="idColegio" name="idColegio" class="form-control">
+            @foreach (var colegio in Model.colegios)
+            {
+                <option value="@colegio.idColegio">@colegio.nombre</option>
+            }
+        </select>
+    </div>
+    <button type="submit" class="btn btn-primary btn-block">Asignar Colegio</button>
+</form>
+<a class="btn btn-secondary" asp-page="./Index">Volver</a>

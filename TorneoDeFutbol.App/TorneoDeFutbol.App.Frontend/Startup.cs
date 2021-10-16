@@ -26,6 +26,7 @@ namespace TorneoDeFutbol.App.Frontend
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddRazorPages();
+            services.AddControllersWithViews();
             services.AddSingleton<IRepositorioJugador, RepositorioJugador>();
             services.AddSingleton<IRepositorioEquipo, RepositorioEquipo>();
             services.AddSingleton<IRepositorioArbitro, RepositorioArbitro>();
@@ -51,6 +52,7 @@ namespace TorneoDeFutbol.App.Frontend
             app.UseStaticFiles();
 
             app.UseRouting();
+            app.UseAuthentication();
 
             app.UseAuthorization();
 

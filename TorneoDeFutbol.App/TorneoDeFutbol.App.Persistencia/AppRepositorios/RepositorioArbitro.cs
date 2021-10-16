@@ -22,9 +22,9 @@ namespace TorneoDeFutbol.App.Persistencia
          }
 
 
-        public void DeleteArbitro(int idArbitro)
+        public void DeleteArbitro(int idParticipante)
         {
-            var arbitroEncontrado = _appContext.Arbitros.Find(idArbitro);
+            var arbitroEncontrado = _appContext.Arbitros.Find(idParticipante);
             if (arbitroEncontrado == null)
                 return;
             _appContext.Arbitros.Remove(arbitroEncontrado);
@@ -32,15 +32,15 @@ namespace TorneoDeFutbol.App.Persistencia
          }
 
 
-        public Arbitro GetArbitro(int idArbitro)
+        public Arbitro GetArbitro(int idParticipante)
         {
-            return _appContext.Arbitros.Find(idArbitro);
+            return _appContext.Arbitros.Find(idParticipante);
         }
 
        //Método ASIGNAR COLEGIO
-        Colegio IRepositorioArbitro.AsignarColegio(int idArbitro, int idColegio)
+        Colegio IRepositorioArbitro.AsignarColegio(int idParticipante, int idColegio)
         {
-            var arbitroEncontrado = _appContext.Arbitros.Find(idArbitro);
+            var arbitroEncontrado = _appContext.Arbitros.Find(idParticipante);
             if (arbitroEncontrado != null)
             {
                 var colegioEncontrado = _appContext.Colegios.Find(idColegio);

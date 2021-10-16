@@ -9,9 +9,9 @@ namespace TorneoDeFutbol.App.Persistencia
         Arbitro AddArbitro (Arbitro arbitro);
         IEnumerable<Arbitro> GetAllArbitros();
         Arbitro UpdateArbitro(Arbitro arbitro); 
-        void DeleteArbitro (int Id_Arbitro);
-        Arbitro GetArbitro(int Id_Arbitro);
-        Colegio AsignarColegio (int Id_Arbitro, int Id_Colegio);
+        void DeleteArbitro (int idParticipante);
+        Arbitro GetArbitro(int idParticipante);
+        Colegio AsignarColegio (int idParticipante, int idColegio);
 
     }
 }

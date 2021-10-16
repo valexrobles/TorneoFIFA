@@ -1,4 +1,19 @@
 ﻿@page
-@model TorneoDeFutbol.App.Frontend.Pages.Colegios.CreateModel
+@using TorneoDeFutbol.App.Dominio;
+@model TorneoDeFutbol.App.Frontend.pages.Colegios.CreateModel
 @{
 }
+<h1>Nuevo Colegio</h1>
+<form method = "post">
+    
+    <div class = "form-group">
+        <label asp-for = "colegio.nombre"></label>
+        <input asp-for = "colegio.nombre" class = "form-control">
+        <span class="text-danger" asp-validation-for="colegio.nombre"></span>
+    </div>
+    
+    
+    
+   <button type="submit" class="btn btn-primary btn-block">Crear Colegio</button>
+</form>
+<a class="btn btn-secondary" asp-page="./Index">Volver</a>

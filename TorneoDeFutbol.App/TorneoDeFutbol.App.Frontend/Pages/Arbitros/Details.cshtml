@@ -38,6 +38,21 @@
             <th scope="col">Colegio</th>
             <td>@Model.arbitro.colegio</td>
         </tr>
+          <tr>
+         <th scope="col">Colegio</th>
+        @if (Model.arbitro.colegio == null)
+        {
+            <th>
+                <a class="btn btn-secondary" asp-page="./AddColegio" asp-route-idParticipante="@Model.arbitro.idParticipante">
+                    Asignar Colegio
+                </a>
+            </th>
+        }
+        else
+        {
+            <td>@Model.arbitro.colegio.nombre</td>
+        }
+    </tr>
        
     </table>
             

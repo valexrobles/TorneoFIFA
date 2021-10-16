@@ -147,7 +147,7 @@ namespace TorneoDeFutbol.App.Consola
                 numTelefono = "01800-3536",
                 ciudad = "Mánchester",
                 aniosExperiencia = 9,
-                genero = Genero.Transexual,
+                genero = Genero.NoBinario,
                 fechaNacimiento = Convert.ToDateTime("27/12/1978")
 
                 /*numDocumento="10403020",

@@ -69,7 +69,7 @@ namespace TorneoDeFutbol.App.Persistencia.Migrations
                     colegioidColegio = table.Column<int>(type: "int", nullable: true),
                     arbitroFIFA = table.Column<bool>(type: "bit", nullable: true),
                     fechaAfiliacionFIFA = table.Column<DateTime>(type: "datetime2", nullable: true),
-                    aniosExperiencia = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    aniosExperiencia = table.Column<int>(type: "int", nullable: true),
                     numCamiseta = table.Column<int>(type: "int", nullable: true),
                     posicion = table.Column<int>(type: "int", nullable: true)
                 },

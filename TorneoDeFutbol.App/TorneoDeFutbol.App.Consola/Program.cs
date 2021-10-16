@@ -22,7 +22,7 @@ namespace TorneoDeFutbol.App.Consola
             //AddParticipante();
             //AddJugador();
             //AddEquipo();
-            //AddDirectorTecnico();
+            AddDirectorTecnico();
             //AddArbitro();
             //AddColegio();
             
@@ -141,14 +141,14 @@ namespace TorneoDeFutbol.App.Consola
             var director = new Director_Tecnico
             {
                 numDocumento="500400300-2",
-                nombre = "Louis",
-                apellido = "Van Gaal",
-                direccion = "Amsterdam",
-                numTelefono = "009-0180050400",
-                ciudad = "Holanda",
-                aniosExperiencia = "Entre 20 y 25",
-                genero = Genero.Otro,
-                fechaNacimiento = Convert.ToDateTime("09/08/1951")
+                nombre = "Reinaldo",
+                apellido = "Rueda",
+                direccion = "Wall Street",
+                numTelefono = "01800-3536",
+                ciudad = "Mánchester",
+                aniosExperiencia = 9,
+                genero = Genero.Transexual,
+                fechaNacimiento = Convert.ToDateTime("27/12/1978")
 
                 /*numDocumento="10403020",
                 nombre = "Marcelo",

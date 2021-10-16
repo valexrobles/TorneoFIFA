@@ -6,6 +6,6 @@ namespace TorneoDeFutbol.App.Dominio
     public class Director_Tecnico: Participante
     {
         [Display(Name = "Años de Experiencia")]
-        public string aniosExperiencia { get;set;}
+        public int aniosExperiencia { get;set;}
     }
 }

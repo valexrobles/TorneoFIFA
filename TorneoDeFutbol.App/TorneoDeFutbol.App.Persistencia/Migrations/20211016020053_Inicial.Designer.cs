@@ -10,7 +10,7 @@ using TorneoDeFutbol.App.Persistencia;
 namespace TorneoDeFutbol.App.Persistencia.Migrations
 {
     [DbContext(typeof(AppContext))]
-    [Migration("20211015174220_Inicial")]
+    [Migration("20211016020053_Inicial")]
     partial class Inicial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -356,8 +356,8 @@ namespace TorneoDeFutbol.App.Persistencia.Migrations
                 {
                     b.HasBaseType("TorneoDeFutbol.App.Dominio.Participante");
 
-                    b.Property<string>("aniosExperiencia")
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int>("aniosExperiencia")
+                        .HasColumnType("int");
 
                     b.HasDiscriminator().HasValue("Director_Tecnico");
                 });

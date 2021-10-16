@@ -354,8 +354,8 @@ namespace TorneoDeFutbol.App.Persistencia.Migrations
                 {
                     b.HasBaseType("TorneoDeFutbol.App.Dominio.Participante");
 
-                    b.Property<string>("aniosExperiencia")
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int>("aniosExperiencia")
+                        .HasColumnType("int");
 
                     b.HasDiscriminator().HasValue("Director_Tecnico");
                 });

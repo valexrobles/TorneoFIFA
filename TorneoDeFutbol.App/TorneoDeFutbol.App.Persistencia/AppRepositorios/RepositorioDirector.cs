@@ -63,7 +63,25 @@ namespace TorneoDeFutbol.App.Persistencia
         {
             return _appContext.DirectoresTecnicos.Where(x=>x.idParticipante == idDirectorTecnico).FirstOrDefault();
         }
-                
+
+        public IEnumerable<Director_Tecnico> GetDTPorGenero(int genero)
+        {
+            return _appContext.DirectoresTecnicos
+                        .Where(g => g.genero == (Genero)genero)
+                        .ToList();
+        }
+
+        public IEnumerable<Director_Tecnico> SearchDT(string nombre)
+        {
+            return _appContext.DirectoresTecnicos
+                        .Where(dt => dt.nombre.Contains(nombre));
+        }
+
+
+
+
+
+
 
     }
 }
